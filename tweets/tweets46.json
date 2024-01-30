@@ -1,0 +1,4900 @@
+{
+  "data": [
+    {
+      "conversation_id": "1432351453067284487",
+      "created_at": "2021-08-30T14:36:12.000Z",
+      "id": "1432351453067284487",
+      "edit_history_tweet_ids": [
+        "1432351453067284487"
+      ],
+      "author_id": "23404794",
+      "text": "Take any book. The most frequently used word will be \"the\". The next most frequently used, whatever it is, will be used half as much. The next most frequently used, a third as much, and so on. Regardless of the writer and (usually) regardless of the language. We have no idea why."
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_1431630673022894080",
+          "3_1431630673060589571"
+        ]
+      },
+      "conversation_id": "1431630679637327879",
+      "created_at": "2021-08-28T14:52:07.000Z",
+      "id": "1431630679637327879",
+      "edit_history_tweet_ids": [
+        "1431630679637327879"
+      ],
+      "author_id": "20690398",
+      "text": "The internet always wins! 😂 https://t.co/Lzp1leljKC"
+    },
+    {
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "847878884917886977",
+            "name": "Politics",
+            "description": "Politics"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "1427352573401452555",
+            "name": "Crisis in Afghanistan"
+          }
+        }
+      ],
+      "conversation_id": "1430762647453110272",
+      "created_at": "2021-08-26T05:22:52.000Z",
+      "id": "1430762647453110272",
+      "edit_history_tweet_ids": [
+        "1430762647453110272"
+      ],
+      "author_id": "312504426",
+      "text": "Dear Sir; my team &amp; my animals are stuck at airport circle. We have a flight waiting. Can you please facilitate safe passage into the airport for our convoy? @suhailshaheen1 We are an NGO who will come back to Afghanistan but right now I want to get everyone out safely. 🙏🏼"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_1429212459978485764"
+        ]
+      },
+      "conversation_id": "1429212530300243969",
+      "created_at": "2021-08-21T22:43:15.000Z",
+      "id": "1429212530300243969",
+      "edit_history_tweet_ids": [
+        "1429212530300243969"
+      ],
+      "author_id": "359358437",
+      "text": "Hey guys so no homo but I’m marrying this dude https://t.co/wZo9BCiGbW"
+    },
+    {
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "847878884917886977",
+            "name": "Politics",
+            "description": "Politics"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "1427352573401452555",
+            "name": "Crisis in Afghanistan"
+          }
+        }
+      ],
+      "attachments": {
+        "media_keys": [
+          "7_1427657836083908609"
+        ]
+      },
+      "conversation_id": "1427658106054406149",
+      "created_at": "2021-08-17T15:46:31.000Z",
+      "id": "1427658106054406149",
+      "edit_history_tweet_ids": [
+        "1427658106054406149"
+      ],
+      "author_id": "814384391761731584",
+      "text": "The Taliban spokesman got a question about freedom of speech and he said the question should be asked to US companies like Facebook who claim to promote it while still censoring https://t.co/woXd5RRCWK"
+    },
+    {
+      "conversation_id": "1426960680351981568",
+      "created_at": "2021-08-15T17:35:12.000Z",
+      "referenced_tweets": [
+        {
+          "type": "quoted",
+          "id": "1426334356226732033"
+        }
+      ],
+      "id": "1426960680351981568",
+      "edit_history_tweet_ids": [
+        "1426960680351981568"
+      ],
+      "author_id": "11582012",
+      "text": "Your American progressive when confronted with *any* international issue squints at the strange people and languages and asks \"so who are the Black people here?\" \nTheir opinion flows from that.\nYou can do that in Israel, but not Afghanistan or Cuba, which is why they don't care. https://t.co/yGW6qUyF6a"
+    },
+    {
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "123",
+            "name": "Ongoing News Story",
+            "description": "Ongoing News Stories like 'Brexit'"
+          },
+          "entity": {
+            "id": "1220701888179359745",
+            "name": "COVID-19"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "1220701888179359745",
+            "name": "COVID-19"
+          }
+        },
+        {
+          "domain": {
+            "id": "47",
+            "name": "Brand",
+            "description": "Brands and Companies"
+          },
+          "entity": {
+            "id": "10040666972",
+            "name": "The New York Times"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "10040666972",
+            "name": "The New York Times"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "1046545033657081857",
+            "name": "News",
+            "description": "News"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "1196447117297905665",
+            "name": "News outlets"
+          }
+        },
+        {
+          "domain": {
+            "id": "29",
+            "name": "Events [Entity Service]",
+            "description": "Real world events. "
+          },
+          "entity": {
+            "id": "1219057585707315201",
+            "name": "COVID-19: Latest news updates from around the world",
+            "description": "This page is a timeline of Tweets with the latest information and updates on COVID-19 from experts, journalists, health authorities and other trusted sources from around the world. For more on COVID-19, visit: twitter.com/explore/tabs/covid-19"
+          }
+        }
+      ],
+      "attachments": {
+        "media_keys": [
+          "3_1425788167437828102"
+        ]
+      },
+      "conversation_id": "1425788228414672897",
+      "created_at": "2021-08-12T11:56:18.000Z",
+      "id": "1425788228414672897",
+      "edit_history_tweet_ids": [
+        "1425788228414672897"
+      ],
+      "author_id": "12382582",
+      "text": "This NYT article on Breakthrough Covid Hospitalizations and Deaths includes a linguistic quirk I like to collect.  A speaker or writer conjuring a scenario of a perfect world or ideal world, that is upon even a moment's reflection quite far from perfect. https://t.co/ESaOwlY4Ug https://t.co/3Q6BfunkeD"
+    },
+    {
+      "conversation_id": "1425107756864917517",
+      "created_at": "2021-08-10T14:52:21.000Z",
+      "referenced_tweets": [
+        {
+          "type": "quoted",
+          "id": "1424936395970424834"
+        }
+      ],
+      "id": "1425107756864917517",
+      "edit_history_tweet_ids": [
+        "1425107756864917517"
+      ],
+      "author_id": "353422065",
+      "text": "One of best follows on here https://t.co/030zM59d18"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_1423933974133579780"
+        ]
+      },
+      "conversation_id": "1423933977744838656",
+      "created_at": "2021-08-07T09:08:10.000Z",
+      "id": "1423933977744838656",
+      "edit_history_tweet_ids": [
+        "1423933977744838656"
+      ],
+      "author_id": "1417487638722977799",
+      "text": "https://t.co/uD76LGSQtL"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_1423440335104000004"
+        ]
+      },
+      "conversation_id": "1423440337457057797",
+      "created_at": "2021-08-06T00:26:37.000Z",
+      "id": "1423440337457057797",
+      "edit_history_tweet_ids": [
+        "1423440337457057797"
+      ],
+      "author_id": "50206480",
+      "text": "Las Vegas odds for who shot Mr. Burns, 1995. https://t.co/dp80BrTYM9"
+    },
+    {
+      "conversation_id": "1423008090429878272",
+      "created_at": "2021-08-04T19:49:01.000Z",
+      "id": "1423008090429878272",
+      "edit_history_tweet_ids": [
+        "1423008090429878272"
+      ],
+      "author_id": "353422065",
+      "text": "I have an inside source that said there is a video of Cuomo grating Parmesan on a woman’s tits that’s about to come out."
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_1421986666735185922",
+          "3_1421986666726805507"
+        ]
+      },
+      "conversation_id": "1421987183154565120",
+      "created_at": "2021-08-02T00:12:18.000Z",
+      "id": "1421987183154565120",
+      "edit_history_tweet_ids": [
+        "1421987183154565120"
+      ],
+      "author_id": "116041165",
+      "text": "DO THEY HAVE TO MAKE HIM WEAR HIS LAST NAME LIKE THAT https://t.co/WmANL7ohTo"
+    },
+    {
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "45",
+            "name": "Brand Vertical",
+            "description": "Top level entities that describe a Brands industry"
+          },
+          "entity": {
+            "id": "781974596148793345",
+            "name": "Business & finance"
+          }
+        },
+        {
+          "domain": {
+            "id": "30",
+            "name": "Entities [Entity Service]",
+            "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+          },
+          "entity": {
+            "id": "781974596794716162",
+            "name": "Financial services"
+          }
+        },
+        {
+          "domain": {
+            "id": "30",
+            "name": "Entities [Entity Service]",
+            "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+          },
+          "entity": {
+            "id": "1007360414114435072",
+            "name": "Bitcoin cryptocurrency",
+            "description": "Bitcoin Cryptocurrency"
+          }
+        },
+        {
+          "domain": {
+            "id": "65",
+            "name": "Interests and Hobbies Vertical",
+            "description": "Top level interests and hobbies groupings, like Food or Travel"
+          },
+          "entity": {
+            "id": "781974596148793345",
+            "name": "Business & finance"
+          }
+        },
+        {
+          "domain": {
+            "id": "66",
+            "name": "Interests and Hobbies Category",
+            "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+          },
+          "entity": {
+            "id": "847888632711061504",
+            "name": "Personal finance",
+            "description": "Personal finance"
+          }
+        },
+        {
+          "domain": {
+            "id": "66",
+            "name": "Interests and Hobbies Category",
+            "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+          },
+          "entity": {
+            "id": "913142676819648512",
+            "name": "Cryptocurrencies",
+            "description": "Cryptocurrency"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "781974596148793345",
+            "name": "Business & finance"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "913142676819648512",
+            "name": "Cryptocurrencies",
+            "description": "Cryptocurrency"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "1007360414114435072",
+            "name": "Bitcoin cryptocurrency",
+            "description": "Bitcoin Cryptocurrency"
+          }
+        }
+      ],
+      "conversation_id": "1421217998212411395",
+      "created_at": "2021-07-30T21:15:50.000Z",
+      "id": "1421217998212411395",
+      "edit_history_tweet_ids": [
+        "1421217998212411395"
+      ],
+      "author_id": "56562803",
+      "text": "Now @michael_saylor has gone completely mad. His latest #Bitcoin pump is that it's an asset you can take with you after you die. He may well end up taking his Bitcoin to the grave, but I doubt he'll be able to buy anything with it in heaven either, or in Saylor's case maybe hell."
+    },
+    {
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "30",
+            "name": "Entities [Entity Service]",
+            "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+          },
+          "entity": {
+            "id": "781974596752842752",
+            "name": "Services"
+          }
+        },
+        {
+          "domain": {
+            "id": "47",
+            "name": "Brand",
+            "description": "Brands and Companies"
+          },
+          "entity": {
+            "id": "10026378521",
+            "name": "Google "
+          }
+        },
+        {
+          "domain": {
+            "id": "48",
+            "name": "Product",
+            "description": "Products created by Brands.  Examples: Ford Explorer, Apple iPhone."
+          },
+          "entity": {
+            "id": "1395474411180892160",
+            "name": "Google brand conversation"
+          }
+        }
+      ],
+      "attachments": {
+        "media_keys": [
+          "3_1420208412240093188"
+        ]
+      },
+      "conversation_id": "1420208508881018880",
+      "created_at": "2021-07-28T02:24:29.000Z",
+      "id": "1420208508881018880",
+      "edit_history_tweet_ids": [
+        "1420208508881018880"
+      ],
+      "author_id": "23404794",
+      "text": "Google is a marvel https://t.co/yxKvqBgli9"
+    },
+    {
+      "conversation_id": "1419722254322081792",
+      "created_at": "2021-07-26T18:12:17.000Z",
+      "referenced_tweets": [
+        {
+          "type": "quoted",
+          "id": "1419482325944045568"
+        }
+      ],
+      "id": "1419722254322081792",
+      "edit_history_tweet_ids": [
+        "1419722254322081792"
+      ],
+      "author_id": "231504942",
+      "text": "Dude walked out of a cornfield just to  call you a bitch https://t.co/8CmohDUDhz"
+    },
+    {
+      "conversation_id": "1419780492057092102",
+      "created_at": "2021-07-26T22:03:42.000Z",
+      "referenced_tweets": [
+        {
+          "type": "quoted",
+          "id": "1419314602110865411"
+        }
+      ],
+      "id": "1419780492057092102",
+      "edit_history_tweet_ids": [
+        "1419780492057092102"
+      ],
+      "author_id": "28422142",
+      "text": "Wow. 12 yarders. What a cannon. Then you move back to the 20. Too bad I did that in Pop Warner. https://t.co/YQfbTu0c97"
+    },
+    {
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "10",
+            "name": "Person",
+            "description": "Named people in the world like Nelson Mandela"
+          },
+          "entity": {
+            "id": "1057755911706406913",
+            "name": "Pixelated Boat",
+            "description": "Pixelated Boat"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "839543456678596608",
+            "name": "Digital creators"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "1057755911706406913",
+            "name": "Pixelated Boat",
+            "description": "Pixelated Boat"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "1192082698568814592",
+            "name": "Animation"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "1280550787207147521",
+            "name": "Arts & culture"
+          }
+        }
+      ],
+      "conversation_id": "1419622730396147726",
+      "created_at": "2021-07-26T11:36:48.000Z",
+      "referenced_tweets": [
+        {
+          "type": "quoted",
+          "id": "1419394410597343235"
+        }
+      ],
+      "id": "1419622730396147726",
+      "edit_history_tweet_ids": [
+        "1419622730396147726"
+      ],
+      "author_id": "2999158160",
+      "text": "It’s kind of crazy that it took thousands of years for literature to be any good but cartoons absolutely whipped ass a few decades after being invented https://t.co/AztPaoIJbb"
+    },
+    {
+      "conversation_id": "1419413654487830528",
+      "created_at": "2021-07-25T21:46:01.000Z",
+      "id": "1419413654487830528",
+      "edit_history_tweet_ids": [
+        "1419413654487830528"
+      ],
+      "author_id": "38032945",
+      "text": "I just want to see how many likes this gets."
+    },
+    {
+      "conversation_id": "1416987991596175363",
+      "created_at": "2021-07-19T05:07:18.000Z",
+      "id": "1416987991596175363",
+      "edit_history_tweet_ids": [
+        "1416987991596175363"
+      ],
+      "author_id": "205838761",
+      "text": "When people say, “I hunted you down like a dog,” do they mean the hunted person is like a dog or that they, the hunter is like a hunting dog? This is sort of time sensitive because this guy looks like he’s waiting for a response."
+    },
+    {
+      "attachments": {
+        "poll_ids": [
+          "1416956537600364548"
+        ]
+      },
+      "conversation_id": "1416956537885577218",
+      "created_at": "2021-07-19T03:02:19.000Z",
+      "id": "1416956537885577218",
+      "edit_history_tweet_ids": [
+        "1416956537885577218"
+      ],
+      "author_id": "23404794",
+      "text": "You know how job interviewers ask, \"Where do you see yourself in five years?\"\n\nDo you have an answer for that? Like do you have a clear plan/goal for where you want to be five years from now?"
+    },
+    {
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "3",
+            "name": "TV Shows",
+            "description": "Television shows from around the world"
+          },
+          "entity": {
+            "id": "10000607734",
+            "name": "NBA Basketball",
+            "description": "All the latest basketball action from the NBA."
+          }
+        },
+        {
+          "domain": {
+            "id": "6",
+            "name": "Sports Event"
+          },
+          "entity": {
+            "id": "1411524016284737544",
+            "name": "Bucks at Suns"
+          }
+        },
+        {
+          "domain": {
+            "id": "10",
+            "name": "Person",
+            "description": "Named people in the world like Nelson Mandela"
+          },
+          "entity": {
+            "id": "920299733410705409",
+            "name": "Mike Breen",
+            "description": "Mike Breen"
+          }
+        },
+        {
+          "domain": {
+            "id": "10",
+            "name": "Person",
+            "description": "Named people in the world like Nelson Mandela"
+          },
+          "entity": {
+            "id": "920299918467596289",
+            "name": "Jeff Van Gundy",
+            "description": "Jeff Van Gundy"
+          }
+        },
+        {
+          "domain": {
+            "id": "10",
+            "name": "Person",
+            "description": "Named people in the world like Nelson Mandela"
+          },
+          "entity": {
+            "id": "920300580504875008",
+            "name": "Mark Jackson",
+            "description": "Mark Jackson"
+          }
+        },
+        {
+          "domain": {
+            "id": "11",
+            "name": "Sport",
+            "description": "Types of sports, like soccer and basketball"
+          },
+          "entity": {
+            "id": "706083902411055104",
+            "name": "Basketball"
+          }
+        },
+        {
+          "domain": {
+            "id": "26",
+            "name": "Sports League",
+            "description": ""
+          },
+          "entity": {
+            "id": "706083889454813185",
+            "name": "NBA"
+          }
+        },
+        {
+          "domain": {
+            "id": "29",
+            "name": "Events [Entity Service]",
+            "description": "Real world events. "
+          },
+          "entity": {
+            "id": "1411524016284737544",
+            "name": "Bucks at Suns"
+          }
+        },
+        {
+          "domain": {
+            "id": "39",
+            "name": "Basketball Game",
+            "description": "Sports Event specific to Basketball games"
+          },
+          "entity": {
+            "id": "1411524016284737544",
+            "name": "Bucks at Suns"
+          }
+        },
+        {
+          "domain": {
+            "id": "92",
+            "name": "Sports Personality",
+            "description": "A Sports Personality like 'Skip Bayless'"
+          },
+          "entity": {
+            "id": "920299733410705409",
+            "name": "Mike Breen",
+            "description": "Mike Breen"
+          }
+        },
+        {
+          "domain": {
+            "id": "92",
+            "name": "Sports Personality",
+            "description": "A Sports Personality like 'Skip Bayless'"
+          },
+          "entity": {
+            "id": "920299918467596289",
+            "name": "Jeff Van Gundy",
+            "description": "Jeff Van Gundy"
+          }
+        },
+        {
+          "domain": {
+            "id": "92",
+            "name": "Sports Personality",
+            "description": "A Sports Personality like 'Skip Bayless'"
+          },
+          "entity": {
+            "id": "920300580504875008",
+            "name": "Mark Jackson",
+            "description": "Mark Jackson"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "706083889454813185",
+            "name": "NBA"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "706083902411055104",
+            "name": "Basketball"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "847900493514891265",
+            "name": "Sports",
+            "description": "Sports"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "920299733410705409",
+            "name": "Mike Breen",
+            "description": "Mike Breen"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "920299918467596289",
+            "name": "Jeff Van Gundy",
+            "description": "Jeff Van Gundy"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "920300580504875008",
+            "name": "Mark Jackson",
+            "description": "Mark Jackson"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "1074755059433463813",
+            "name": "Sports journalists",
+            "description": "Sports Figures"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "1202239681422774272",
+            "name": "Sports icons"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "1397592141119983617",
+            "name": "NBA Finals"
+          }
+        }
+      ],
+      "conversation_id": "1416578662929862657",
+      "created_at": "2021-07-18T02:00:46.000Z",
+      "id": "1416578662929862657",
+      "edit_history_tweet_ids": [
+        "1416578662929862657"
+      ],
+      "author_id": "2432454277",
+      "text": "Jeff Van Gundy: If you get fouled so hard that you fart a little you should get an extra free throw. \nMark Jackson: Growing up in New York City we called that a brown out. Happened to a great point guard by the name of Kenny Anderson. \nMike Breen: —and the Bucks have tied it up"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_1415805228927094785"
+        ]
+      },
+      "conversation_id": "1415805231691087876",
+      "created_at": "2021-07-15T22:47:26.000Z",
+      "id": "1415805231691087876",
+      "edit_history_tweet_ids": [
+        "1415805231691087876"
+      ],
+      "author_id": "172580748",
+      "text": "https://t.co/lit7dRaKod"
+    },
+    {
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "10",
+            "name": "Person",
+            "description": "Named people in the world like Nelson Mandela"
+          },
+          "entity": {
+            "id": "1266467007987253248",
+            "name": "George Floyd"
+          }
+        }
+      ],
+      "attachments": {
+        "media_keys": [
+          "3_1413961636763688960",
+          "3_1413961636759543808",
+          "3_1413961636767956995",
+          "3_1413961636759498758"
+        ]
+      },
+      "conversation_id": "1413961672163610632",
+      "created_at": "2021-07-10T20:41:47.000Z",
+      "id": "1413961672163610632",
+      "edit_history_tweet_ids": [
+        "1413961672163610632"
+      ],
+      "author_id": "7900962",
+      "text": "Surreal moment in Oakland. About 200 mostly black families rally with police to call for an end to the epidemic of gun violence. Mothers at the stage mourning recently murdered children. In the back, less than a dozen mostly white antifa protesters assembled to jeer them. https://t.co/uuE9Sohhkm"
+    },
+    {
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "29",
+            "name": "Events [Entity Service]",
+            "description": "Real world events. "
+          },
+          "entity": {
+            "id": "1389587871565180928",
+            "name": "National Spelling Bee 2021"
+          }
+        }
+      ],
+      "attachments": {
+        "media_keys": [
+          "7_1317997723036061696"
+        ],
+        "media_source_tweet_id": [
+          "1318004938161664000"
+        ]
+      },
+      "conversation_id": "1413405310203617283",
+      "created_at": "2021-07-09T07:51:00.000Z",
+      "id": "1413405310203617283",
+      "edit_history_tweet_ids": [
+        "1413405310203617283"
+      ],
+      "author_id": "101685135",
+      "text": "This is the National Spelling Bee champion https://t.co/8DnJLytG7H"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "7_1411966231360409601"
+        ],
+        "media_source_tweet_id": [
+          "1411966271566999555"
+        ]
+      },
+      "conversation_id": "1412016052708556803",
+      "created_at": "2021-07-05T11:50:35.000Z",
+      "id": "1412016052708556803",
+      "edit_history_tweet_ids": [
+        "1412016052708556803"
+      ],
+      "author_id": "18905879",
+      "text": "A new supersized 3D screen has gone up in Shinjuku. This giant kitty will be featured in between broadcasts.\n https://t.co/Fh0YLWW3rx"
+    },
+    {
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "30",
+            "name": "Entities [Entity Service]",
+            "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+          },
+          "entity": {
+            "id": "781974596752842752",
+            "name": "Services"
+          }
+        },
+        {
+          "domain": {
+            "id": "47",
+            "name": "Brand",
+            "description": "Brands and Companies"
+          },
+          "entity": {
+            "id": "10041893684",
+            "name": "Instagram"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "10041893684",
+            "name": "Instagram"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "1196446161223028736",
+            "name": "Social media"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "1395478491030638594",
+            "name": "Popular Images"
+          }
+        }
+      ],
+      "attachments": {
+        "media_keys": [
+          "3_1402438209548787712"
+        ]
+      },
+      "conversation_id": "1402438217316679687",
+      "created_at": "2021-06-09T01:31:41.000Z",
+      "id": "1402438217316679687",
+      "edit_history_tweet_ids": [
+        "1402438217316679687"
+      ],
+      "author_id": "2933805082",
+      "text": "I don’t share a lot from Instagram but this is very important https://t.co/NCaPy3OvYi"
+    },
+    {
+      "conversation_id": "1400434155607969792",
+      "created_at": "2021-06-03T12:51:32.000Z",
+      "referenced_tweets": [
+        {
+          "type": "replied_to",
+          "id": "1400434155607969792"
+        }
+      ],
+      "id": "1400434978098405379",
+      "edit_history_tweet_ids": [
+        "1400434978098405379"
+      ],
+      "author_id": "1243470638477697024",
+      "text": "I'm not a bull or a bear. I'm a goblin trying protect and make money.\n\nI'll flip flop whenever it serves those goals.",
+      "in_reply_to_user_id": "1243470638477697024"
+    },
+    {
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "123",
+            "name": "Ongoing News Story",
+            "description": "Ongoing News Stories like 'Brexit'"
+          },
+          "entity": {
+            "id": "1220701888179359745",
+            "name": "COVID-19"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "1220701888179359745",
+            "name": "COVID-19"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "1362097408381837313",
+            "name": "COVID-19 in Japan"
+          }
+        },
+        {
+          "domain": {
+            "id": "45",
+            "name": "Brand Vertical",
+            "description": "Top level entities that describe a Brands industry"
+          },
+          "entity": {
+            "id": "781974596157251587",
+            "name": "Government/Education"
+          }
+        },
+        {
+          "domain": {
+            "id": "30",
+            "name": "Entities [Entity Service]",
+            "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+          },
+          "entity": {
+            "id": "781974597226729473",
+            "name": "Non-profit - Government/Education"
+          }
+        },
+        {
+          "domain": {
+            "id": "47",
+            "name": "Brand",
+            "description": "Brands and Companies"
+          },
+          "entity": {
+            "id": "10046650628",
+            "name": "USAID"
+          }
+        }
+      ],
+      "conversation_id": "1392517180563001344",
+      "created_at": "2021-05-12T16:29:02.000Z",
+      "id": "1392517180563001344",
+      "edit_history_tweet_ids": [
+        "1392517180563001344"
+      ],
+      "author_id": "292137997",
+      "text": "The Covid Protocols app helps doctors + clinicians across the world treat #Covid19 patients and develop standards of care. We're honored to be recognized by @FastCompany's #FCWorldChangingIdeas awards for this work with @BrighamWomens @USAID @UCSFMedicine https://t.co/LaRgESjZPr"
+    },
+    {
+      "conversation_id": "1389219646046343168",
+      "created_at": "2021-05-03T14:05:48.000Z",
+      "id": "1389219646046343168",
+      "edit_history_tweet_ids": [
+        "1389219646046343168"
+      ],
+      "author_id": "84070700",
+      "text": "I’m excited to announce the launch of my new website: https://t.co/L6SQCZwe8P\nI’ve made it easy to prepare #estateplanning documents and #specialneeds trusts at an affordable price that maximizes your child’s benefits and guarantees their financial future."
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "7_1386019079111290890"
+        ]
+      },
+      "conversation_id": "1386019110471958528",
+      "created_at": "2021-04-24T18:08:01.000Z",
+      "id": "1386019110471958528",
+      "edit_history_tweet_ids": [
+        "1386019110471958528"
+      ],
+      "author_id": "1366256262921523205",
+      "text": "HOW TO ACQUIRE #SAFEMOON 🌕 https://t.co/YLnb3UUDd1"
+    },
+    {
+      "conversation_id": "1386688375999053824",
+      "created_at": "2021-04-26T14:27:26.000Z",
+      "id": "1386688375999053824",
+      "edit_history_tweet_ids": [
+        "1386688375999053824"
+      ],
+      "author_id": "1546159537",
+      "text": "Oh baby!!!! @TimberWP is in @theTorqueMag's 2021 #PluginMadness! Vote now https://t.co/cyBRpcZWPB   https://t.co/tQcTSwqR6O"
+    },
+    {
+      "conversation_id": "1382629637868650500",
+      "created_at": "2021-04-15T09:39:28.000Z",
+      "id": "1382629637868650500",
+      "edit_history_tweet_ids": [
+        "1382629637868650500"
+      ],
+      "author_id": "16113639",
+      "text": "So grateful to have reunited with my birth mom. Rachel ur courage, resilence and love lift me. Ur a #motivation #inspiration to all to #keepingfaith #keepgoing Thx @MeghanIrons.\n\nTito Jackson reunites with his birth mother, Rachel Twymon https://t.co/ZiGnIiAumg via @BostonGlobe"
+    },
+    {
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "30",
+            "name": "Entities [Entity Service]",
+            "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+          },
+          "entity": {
+            "id": "781974596752842752",
+            "name": "Services"
+          }
+        },
+        {
+          "domain": {
+            "id": "47",
+            "name": "Brand",
+            "description": "Brands and Companies"
+          },
+          "entity": {
+            "id": "10045225402",
+            "name": "X"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "10045225402",
+            "name": "X"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "1196446161223028736",
+            "name": "Social media"
+          }
+        },
+        {
+          "domain": {
+            "id": "10",
+            "name": "Person",
+            "description": "Named people in the world like Nelson Mandela"
+          },
+          "entity": {
+            "id": "808713037230157824",
+            "name": "Elon Musk",
+            "description": "Elon Musk"
+          }
+        },
+        {
+          "domain": {
+            "id": "65",
+            "name": "Interests and Hobbies Vertical",
+            "description": "Top level interests and hobbies groupings, like Food or Travel"
+          },
+          "entity": {
+            "id": "781974596148793345",
+            "name": "Business & finance"
+          }
+        },
+        {
+          "domain": {
+            "id": "66",
+            "name": "Interests and Hobbies Category",
+            "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+          },
+          "entity": {
+            "id": "857878777191211008",
+            "name": "Leadership",
+            "description": "Leadership"
+          }
+        },
+        {
+          "domain": {
+            "id": "30",
+            "name": "Entities [Entity Service]",
+            "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+          },
+          "entity": {
+            "id": "857879456773357569",
+            "name": "Technology",
+            "description": "Technology"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "808713037230157824",
+            "name": "Elon Musk",
+            "description": "Elon Musk"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "1091420346660470784",
+            "name": "Tech personalities",
+            "description": "Tech Professionals"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "1166406108623163392",
+            "name": "Business personalities"
+          }
+        }
+      ],
+      "conversation_id": "1364218324884873223",
+      "created_at": "2021-02-23T14:36:17.000Z",
+      "referenced_tweets": [
+        {
+          "type": "replied_to",
+          "id": "1364220580044578819"
+        }
+      ],
+      "id": "1364222552898347010",
+      "edit_history_tweet_ids": [
+        "1364222552898347010"
+      ],
+      "author_id": "1351273144355614721",
+      "text": "@i_am_not_aakash @PeterSchiff @michael_saylor And here, you can see a monkey with a small brain.\nThis monkey saw what Elon musk post on Twitter, and the monkey copy and paste and think he is cool.\nGo to bed monkey and stay poor.",
+      "in_reply_to_user_id": "1153486171009245184"
+    },
+    {
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "65",
+            "name": "Interests and Hobbies Vertical",
+            "description": "Top level interests and hobbies groupings, like Food or Travel"
+          },
+          "entity": {
+            "id": "847544972781826048",
+            "name": "Careers",
+            "description": "Careers"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "847544972781826048",
+            "name": "Careers",
+            "description": "Careers"
+          }
+        },
+        {
+          "domain": {
+            "id": "66",
+            "name": "Interests and Hobbies Category",
+            "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+          },
+          "entity": {
+            "id": "852219717016141824",
+            "name": "College life",
+            "description": "College Life"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "852219717016141824",
+            "name": "College life",
+            "description": "College Life"
+          }
+        }
+      ],
+      "attachments": {
+        "media_keys": [
+          "3_1346811519078641665"
+        ]
+      },
+      "conversation_id": "1346811538280124417",
+      "created_at": "2021-01-06T13:31:07.000Z",
+      "id": "1346811538280124417",
+      "edit_history_tweet_ids": [
+        "1346811538280124417"
+      ],
+      "author_id": "84070700",
+      "text": "We are hiring a Workforce Development Director! https://t.co/20Y4HwXfJi #highereducation #jobs #careers #communitycollege #workforcedevelopment https://t.co/75bNG6ilwp"
+    },
+    {
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "10",
+            "name": "Person",
+            "description": "Named people in the world like Nelson Mandela"
+          },
+          "entity": {
+            "id": "1054488376441679872",
+            "name": "Nate Cohn",
+            "description": "Nate Cohn"
+          }
+        },
+        {
+          "domain": {
+            "id": "94",
+            "name": "Journalist",
+            "description": "A journalist like 'Anderson Cooper'"
+          },
+          "entity": {
+            "id": "1054488376441679872",
+            "name": "Nate Cohn",
+            "description": "Nate Cohn"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "1046545033657081857",
+            "name": "News",
+            "description": "News"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "1054488376441679872",
+            "name": "Nate Cohn",
+            "description": "Nate Cohn"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "1074755369530880001",
+            "name": "Journalists",
+            "description": "Journalism"
+          }
+        },
+        {
+          "domain": {
+            "id": "10",
+            "name": "Person",
+            "description": "Named people in the world like Nelson Mandela"
+          },
+          "entity": {
+            "id": "10040395078",
+            "name": "Joe Biden",
+            "description": "US President Joe Biden"
+          }
+        },
+        {
+          "domain": {
+            "id": "35",
+            "name": "Politician",
+            "description": "Politicians in the world, like Joe Biden"
+          },
+          "entity": {
+            "id": "10040395078",
+            "name": "Joe Biden",
+            "description": "US President Joe Biden"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "10040395078",
+            "name": "Joe Biden",
+            "description": "US President Joe Biden"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "847878884917886977",
+            "name": "Politics",
+            "description": "Politics"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "1070032753834438656",
+            "name": "Political figures",
+            "description": "Politician"
+          }
+        }
+      ],
+      "attachments": {
+        "media_keys": [
+          "3_1324084985343729666"
+        ]
+      },
+      "conversation_id": "1324084507549552648",
+      "created_at": "2020-11-04T20:24:44.000Z",
+      "referenced_tweets": [
+        {
+          "type": "replied_to",
+          "id": "1324084507549552648"
+        }
+      ],
+      "id": "1324085190243897357",
+      "edit_history_tweet_ids": [
+        "1324085190243897357"
+      ],
+      "author_id": "14845764",
+      "text": "@Nate_Cohn Tracking the changes here as the updates come in.   Need 70% for Biden at 240,000 votes, slightly less at 250,000 votes.\nhttps://t.co/nZonRSS3tv https://t.co/8Jl0h4Fnqd",
+      "in_reply_to_user_id": "463765807"
+    },
+    {
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "10",
+            "name": "Person",
+            "description": "Named people in the world like Nelson Mandela"
+          },
+          "entity": {
+            "id": "877866207516307456",
+            "name": "Fleetwood Mac",
+            "description": "Fleetwood Mac"
+          }
+        },
+        {
+          "domain": {
+            "id": "54",
+            "name": "Musician",
+            "description": "A musician in the world, like Adele or Bob Dylan"
+          },
+          "entity": {
+            "id": "877866207516307456",
+            "name": "Fleetwood Mac",
+            "description": "Fleetwood Mac"
+          }
+        },
+        {
+          "domain": {
+            "id": "55",
+            "name": "Music Genre",
+            "description": "A category for a musical style, like Pop, Rock, or Rap"
+          },
+          "entity": {
+            "id": "806571747730341888",
+            "name": "Rock",
+            "description": "Rock"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "806571747730341888",
+            "name": "Rock",
+            "description": "Rock"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "847524658970636288",
+            "name": "Music",
+            "description": "Music and radio"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "877866207516307456",
+            "name": "Fleetwood Mac",
+            "description": "Fleetwood Mac"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "1108100469778345984",
+            "name": "Classic rock",
+            "description": "Classic Rock"
+          }
+        }
+      ],
+      "conversation_id": "1314248615959900161",
+      "created_at": "2020-10-08T16:57:42.000Z",
+      "id": "1314248615959900161",
+      "edit_history_tweet_ids": [
+        "1314248615959900161"
+      ],
+      "author_id": "22529585",
+      "text": "crazy that the guy from Fleetwood Mac is called Mack Fleetwood"
+    },
+    {
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "30",
+            "name": "Entities [Entity Service]",
+            "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+          },
+          "entity": {
+            "id": "1237095288671596545",
+            "name": "Mathematics"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "1237095288671596545",
+            "name": "Mathematics"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "1278093262406815744",
+            "name": "Fields of study"
+          }
+        }
+      ],
+      "conversation_id": "1293702937332658176",
+      "created_at": "2020-08-13T00:16:30.000Z",
+      "id": "1293702937332658176",
+      "edit_history_tweet_ids": [
+        "1293702937332658176"
+      ],
+      "author_id": "22529585",
+      "text": "A little over 14 years ago I decided to abandon my degree, move to CA, and work at the @mercurynews. Today I finally completed my degree, and am super proud of my classmates and friends in @BU_Tweets computer science and math depts. It’s been a fun couple of years."
+    },
+    {
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "123",
+            "name": "Ongoing News Story",
+            "description": "Ongoing News Stories like 'Brexit'"
+          },
+          "entity": {
+            "id": "1220701888179359745",
+            "name": "COVID-19"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "1220701888179359745",
+            "name": "COVID-19"
+          }
+        },
+        {
+          "domain": {
+            "id": "10",
+            "name": "Person",
+            "description": "Named people in the world like Nelson Mandela"
+          },
+          "entity": {
+            "id": "10040395078",
+            "name": "Joe Biden",
+            "description": "US President Joe Biden"
+          }
+        },
+        {
+          "domain": {
+            "id": "35",
+            "name": "Politician",
+            "description": "Politicians in the world, like Joe Biden"
+          },
+          "entity": {
+            "id": "10040395078",
+            "name": "Joe Biden",
+            "description": "US President Joe Biden"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "10040395078",
+            "name": "Joe Biden",
+            "description": "US President Joe Biden"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "847878884917886977",
+            "name": "Politics",
+            "description": "Politics"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "1070032753834438656",
+            "name": "Political figures",
+            "description": "Politician"
+          }
+        }
+      ],
+      "attachments": {
+        "media_keys": [
+          "3_1245749152576933889"
+        ]
+      },
+      "conversation_id": "1245749269442822145",
+      "created_at": "2020-04-02T16:25:45.000Z",
+      "id": "1245749269442822145",
+      "edit_history_tweet_ids": [
+        "1245749269442822145"
+      ],
+      "author_id": "22529585",
+      "text": "Joe Biden? In a worldwide pandemic causing economic collapse, with an election coming up? \n\nYes. \n\nMay I see him?\n\nNo. https://t.co/PGwDZOtzi4"
+    },
+    {
+      "conversation_id": "1240330405284171776",
+      "created_at": "2020-03-18T17:33:07.000Z",
+      "id": "1240330405284171776",
+      "edit_history_tweet_ids": [
+        "1240330405284171776"
+      ],
+      "author_id": "353422065",
+      "text": "Imagine being like a die hard democrat or republican and fighting the other side while the world ends. What a waste humanity is lol."
+    },
+    {
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "66",
+            "name": "Interests and Hobbies Category",
+            "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+          },
+          "entity": {
+            "id": "1237833500474003461",
+            "name": "Remote work"
+          }
+        },
+        {
+          "domain": {
+            "id": "123",
+            "name": "Ongoing News Story",
+            "description": "Ongoing News Stories like 'Brexit'"
+          },
+          "entity": {
+            "id": "1220701888179359745",
+            "name": "COVID-19"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "839544274442051584",
+            "name": "Entertainment"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "1074758954444513282",
+            "name": "Podcasts & radio",
+            "description": "Podcasts"
+          }
+        }
+      ],
+      "conversation_id": "1240076898295640064",
+      "created_at": "2020-03-18T00:45:46.000Z",
+      "id": "1240076898295640064",
+      "edit_history_tweet_ids": [
+        "1240076898295640064"
+      ],
+      "author_id": "353422065",
+      "text": "To all you fuckers saying podcasters don’t have real jobs because we already work from home I just went down to the hospital and offered to do a live podcast and they asked me to leave and alerted authorities. So fuck you I am doing my part."
+    },
+    {
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "10",
+            "name": "Person",
+            "description": "Named people in the world like Nelson Mandela"
+          },
+          "entity": {
+            "id": "810934060117696514",
+            "name": "Jared Leto",
+            "description": "Jared Leto"
+          }
+        },
+        {
+          "domain": {
+            "id": "56",
+            "name": "Actor",
+            "description": "An actor or actress in the world, like Kate Winslet or Leonardo DiCaprio"
+          },
+          "entity": {
+            "id": "810934060117696514",
+            "name": "Jared Leto",
+            "description": "Jared Leto"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "810934060117696514",
+            "name": "Jared Leto",
+            "description": "Jared Leto"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "839544274442051584",
+            "name": "Entertainment"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "1095352268046495745",
+            "name": "Celebrities",
+            "description": "Celebrities"
+          }
+        }
+      ],
+      "conversation_id": "1239785964169342976",
+      "created_at": "2020-03-17T14:12:20.000Z",
+      "referenced_tweets": [
+        {
+          "type": "replied_to",
+          "id": "1239785964169342976"
+        }
+      ],
+      "id": "1239917490462998531",
+      "edit_history_tweet_ids": [
+        "1239917490462998531"
+      ],
+      "author_id": "75604826",
+      "text": "@JaredLeto Thank you Jared. We’re all struggling during this time. I don’t have the virus but I did have to read these tweets",
+      "in_reply_to_user_id": "27711339"
+    },
+    {
+      "conversation_id": "1235278388136251393",
+      "created_at": "2020-03-04T18:58:12.000Z",
+      "id": "1235278388136251393",
+      "edit_history_tweet_ids": [
+        "1235278388136251393"
+      ],
+      "author_id": "353422065",
+      "text": "I love all these people that are like “Okay here’s my plan now. I will support whoever the nominee.....” Bitch who cares?"
+    },
+    {
+      "conversation_id": "1207419718212235266",
+      "created_at": "2019-12-18T21:57:48.000Z",
+      "id": "1207419718212235266",
+      "edit_history_tweet_ids": [
+        "1207419718212235266"
+      ],
+      "author_id": "22529585",
+      "text": "A kid on a school bus just flipped me off so hit him with the full bore double bird bangers with MJ tongue action and he and his friends flipped out. Still got it."
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_1204443002019729411"
+        ]
+      },
+      "conversation_id": "1204443025763655682",
+      "created_at": "2019-12-10T16:49:29.000Z",
+      "id": "1204443025763655682",
+      "edit_history_tweet_ids": [
+        "1204443025763655682"
+      ],
+      "author_id": "22529585",
+      "text": "I’m a thought leader https://t.co/qgDww4YBes"
+    },
+    {
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "10",
+            "name": "Person",
+            "description": "Named people in the world like Nelson Mandela"
+          },
+          "entity": {
+            "id": "1095429457962127360",
+            "name": "Pete Buttigieg",
+            "description": "US Mayor of South Bend, Indiana, Pete Buttigieg"
+          }
+        },
+        {
+          "domain": {
+            "id": "35",
+            "name": "Politician",
+            "description": "Politicians in the world, like Joe Biden"
+          },
+          "entity": {
+            "id": "1095429457962127360",
+            "name": "Pete Buttigieg",
+            "description": "US Mayor of South Bend, Indiana, Pete Buttigieg"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "847878884917886977",
+            "name": "Politics",
+            "description": "Politics"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "1070032753834438656",
+            "name": "Political figures",
+            "description": "Politician"
+          }
+        },
+        {
+          "domain": {
+            "id": "131",
+            "name": "Unified Twitter Taxonomy",
+            "description": "A taxonomy of user interests. "
+          },
+          "entity": {
+            "id": "1095429457962127360",
+            "name": "Pete Buttigieg",
+            "description": "US Mayor of South Bend, Indiana, Pete Buttigieg"
+          }
+        }
+      ],
+      "conversation_id": "1184626704310063106",
+      "created_at": "2019-10-17T00:32:52.000Z",
+      "referenced_tweets": [
+        {
+          "type": "replied_to",
+          "id": "1184626704310063106"
+        }
+      ],
+      "id": "1184628308471877633",
+      "edit_history_tweet_ids": [
+        "1184628308471877633"
+      ],
+      "author_id": "2874997955",
+      "text": "@PeteForAmerica @PeteButtigieg Nope. Not the same candidate I supported 6 months ago.",
+      "in_reply_to_user_id": "1143571304404148224"
+    },
+    {
+      "conversation_id": "1172338938410700803",
+      "created_at": "2019-09-13T02:48:45.000Z",
+      "referenced_tweets": [
+        {
+          "type": "replied_to",
+          "id": "1172338938410700803"
+        }
+      ],
+      "id": "1172341316119756800",
+      "edit_history_tweet_ids": [
+        "1172341316119756800"
+      ],
+      "author_id": "12382582",
+      "text": "@jneeley78 @TPCarney No. It was losing to the Penguins",
+      "in_reply_to_user_id": "214176777"
+    },
+    {
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "45",
+            "name": "Brand Vertical",
+            "description": "Top level entities that describe a Brands industry"
+          },
+          "entity": {
+            "id": "781974597302226944",
+            "name": "Transportation"
+          }
+        },
+        {
+          "domain": {
+            "id": "30",
+            "name": "Entities [Entity Service]",
+            "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+          },
+          "entity": {
+            "id": "781974597251964928",
+            "name": "Car Rental/Sharing - Transportation"
+          }
+        },
+        {
+          "domain": {
+            "id": "47",
+            "name": "Brand",
+            "description": "Brands and Companies"
+          },
+          "entity": {
+            "id": "10040709681",
+            "name": "Uber"
+          }
+        }
+      ],
+      "conversation_id": "1073823746245316608",
+      "created_at": "2018-12-15T06:15:06.000Z",
+      "id": "1073823746245316608",
+      "edit_history_tweet_ids": [
+        "1073823746245316608"
+      ],
+      "author_id": "22657153",
+      "text": "Hey @Uber , not to sound mean but you should add an option when you order a car that says you want driver to talk or just want it quiet. Some people just want to chill. And some clients want to chat. But it should be a choice.  I think ppl would like that"
+    },
+    {
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "10",
+            "name": "Person",
+            "description": "Named people in the world like Nelson Mandela"
+          },
+          "entity": {
+            "id": "799022225751871488",
+            "name": "Donald Trump",
+            "description": "45th US President, Donald Trump"
+          }
+        },
+        {
+          "domain": {
+            "id": "35",
+            "name": "Politician",
+            "description": "Politicians in the world, like Joe Biden"
+          },
+          "entity": {
+            "id": "799022225751871488",
+            "name": "Donald Trump",
+            "description": "45th US President, Donald Trump"
+          }
+        },
+        {
+          "domain": {
+            "id": "30",
+            "name": "Entities [Entity Service]",
+            "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+          },
+          "entity": {
+            "id": "781974596752842752",
+            "name": "Services"
+          }
+        },
+        {
+          "domain": {
+            "id": "47",
+            "name": "Brand",
+            "description": "Brands and Companies"
+          },
+          "entity": {
+            "id": "10045225402",
+            "name": "X"
+          }
+        }
+      ],
+      "conversation_id": "1023741522741608448",
+      "created_at": "2018-07-30T01:26:13.000Z",
+      "referenced_tweets": [
+        {
+          "type": "quoted",
+          "id": "1023604457735577601"
+        }
+      ],
+      "id": "1023741522741608448",
+      "edit_history_tweet_ids": [
+        "1023741522741608448"
+      ],
+      "author_id": "3101753763",
+      "text": "The Libz and their CRUNCHY PUBES can think whatever they want. My pubes are smooth and MY PRESIDENT IS #TRUMP!!!!!!! #tcot https://t.co/RLILlrng69"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "16_1019268568393740290"
+        ]
+      },
+      "conversation_id": "1019180372855345153",
+      "created_at": "2018-07-17T17:12:20.000Z",
+      "referenced_tweets": [
+        {
+          "type": "replied_to",
+          "id": "1019244926599647232"
+        }
+      ],
+      "id": "1019268576589512710",
+      "edit_history_tweet_ids": [
+        "1019268576589512710"
+      ],
+      "author_id": "33791270",
+      "text": "@smlieber84 @BreitbartNews I feel like a ruined your day. https://t.co/Tn6D0Vm5VL",
+      "in_reply_to_user_id": "81957315"
+    },
+    {
+      "conversation_id": "1012422565854416896",
+      "created_at": "2018-06-28T19:48:44.000Z",
+      "id": "1012422565854416896",
+      "edit_history_tweet_ids": [
+        "1012422565854416896"
+      ],
+      "author_id": "23404794",
+      "text": "Today's column, if you missed it this morning:  https://t.co/8aIAVRXcsr"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "7_1011753803794800640"
+        ]
+      },
+      "conversation_id": "1011753900133711872",
+      "created_at": "2018-06-26T23:31:41.000Z",
+      "id": "1011753900133711872",
+      "edit_history_tweet_ids": [
+        "1011753900133711872"
+      ],
+      "author_id": "15962154",
+      "text": "Hey, wanna see the best pickle commercial? https://t.co/COMhl34bEP"
+    },
+    {
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "3",
+            "name": "TV Shows",
+            "description": "Television shows from around the world"
+          },
+          "entity": {
+            "id": "10000607734",
+            "name": "NBA Basketball",
+            "description": "All the latest basketball action from the NBA."
+          }
+        },
+        {
+          "domain": {
+            "id": "3",
+            "name": "TV Shows",
+            "description": "Television shows from around the world"
+          },
+          "entity": {
+            "id": "10029190505",
+            "name": "Live: NBA Basketball",
+            "description": "Live coverage from the National Basketball Association, the top basketball league in North America."
+          }
+        },
+        {
+          "domain": {
+            "id": "3",
+            "name": "TV Shows",
+            "description": "Television shows from around the world"
+          },
+          "entity": {
+            "id": "10029304530",
+            "name": "NBA Basketball"
+          }
+        },
+        {
+          "domain": {
+            "id": "26",
+            "name": "Sports League",
+            "description": ""
+          },
+          "entity": {
+            "id": "706083889454813185",
+            "name": "NBA"
+          }
+        },
+        {
+          "domain": {
+            "id": "29",
+            "name": "Events [Entity Service]",
+            "description": "Real world events. "
+          },
+          "entity": {
+            "id": "790580774739193857",
+            "name": "The Warm Up",
+            "description": "The Warm Up"
+          }
+        },
+        {
+          "domain": {
+            "id": "45",
+            "name": "Brand Vertical",
+            "description": "Top level entities that describe a Brands industry"
+          },
+          "entity": {
+            "id": "781974597310615553",
+            "name": "Entertainment"
+          }
+        },
+        {
+          "domain": {
+            "id": "47",
+            "name": "Brand",
+            "description": "Brands and Companies"
+          },
+          "entity": {
+            "id": "10042758024",
+            "name": "NBA"
+          }
+        }
+      ],
+      "conversation_id": "1011722886627954689",
+      "created_at": "2018-06-26T21:28:27.000Z",
+      "referenced_tweets": [
+        {
+          "type": "quoted",
+          "id": "1011618720240857090"
+        }
+      ],
+      "id": "1011722886627954689",
+      "edit_history_tweet_ids": [
+        "1011722886627954689"
+      ],
+      "author_id": "33791270",
+      "text": "How how how did he not win? Beyond ridiculous https://t.co/hTZwXLz5iJ"
+    },
+    {
+      "conversation_id": "989471640080863232",
+      "created_at": "2018-04-26T15:05:50.000Z",
+      "referenced_tweets": [
+        {
+          "type": "replied_to",
+          "id": "989519124702384133"
+        }
+      ],
+      "id": "989520938634006528",
+      "edit_history_tweet_ids": [
+        "989520938634006528"
+      ],
+      "author_id": "33791270",
+      "text": "@smlieber84 I've always wanted my own hashtag.  Thank you.",
+      "in_reply_to_user_id": "81957315"
+    },
+    {
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "3",
+            "name": "TV Shows",
+            "description": "Television shows from around the world"
+          },
+          "entity": {
+            "id": "10004508226",
+            "name": "PBS NewsHour",
+            "description": "Correspondents report on important news events of the day. Their daily reports are also available online and on radio."
+          }
+        },
+        {
+          "domain": {
+            "id": "3",
+            "name": "TV Shows",
+            "description": "Television shows from around the world"
+          },
+          "entity": {
+            "id": "886663120344686592",
+            "name": "PBS Newshour"
+          }
+        }
+      ],
+      "conversation_id": "988841885774024706",
+      "created_at": "2018-04-24T18:07:32.000Z",
+      "referenced_tweets": [
+        {
+          "type": "quoted",
+          "id": "988840758722613248"
+        }
+      ],
+      "id": "988841885774024706",
+      "edit_history_tweet_ids": [
+        "988841885774024706"
+      ],
+      "author_id": "22529585",
+      "text": "👏👏👏👏👏 Nice work, @NewsHour, you earned it! https://t.co/onQewfd1b8"
+    },
+    {
+      "conversation_id": "988182497459662848",
+      "created_at": "2018-04-22T23:37:23.000Z",
+      "referenced_tweets": [
+        {
+          "type": "replied_to",
+          "id": "988183998412349441"
+        }
+      ],
+      "id": "988200119462973442",
+      "edit_history_tweet_ids": [
+        "988200119462973442"
+      ],
+      "author_id": "22529585",
+      "text": "@jaredNova @scottlincicome Completely agree and the omission of Frank's is quite stunning",
+      "in_reply_to_user_id": "292137997"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_985926022540378113"
+        ]
+      },
+      "conversation_id": "985926105382219776",
+      "created_at": "2018-04-16T17:01:15.000Z",
+      "id": "985926105382219776",
+      "edit_history_tweet_ids": [
+        "985926105382219776"
+      ],
+      "author_id": "22529585",
+      "text": "1. This is the Moon Museum: https://t.co/r6t81t6gBC . and 2. There's an Andy Warhol dick drawing somewhere on the moon. https://t.co/dQY3eUp30s"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_984566554778988545"
+        ]
+      },
+      "conversation_id": "984569381370806272",
+      "created_at": "2018-04-12T23:10:07.000Z",
+      "id": "984569381370806272",
+      "edit_history_tweet_ids": [
+        "984569381370806272"
+      ],
+      "author_id": "169312819",
+      "text": "Friendly reminder to respect people's time⌚️\n\n🗒️ Send an agenda\n🧠 Never ask to pick your brain, be specific\n✉️ If you can do it by email don't book a call\n📞 If you can do it by phone don't book a meeting\n❌ No intros without double opt-in\n🙉 You're not entitled to a reply https://t.co/ITs5cUZg0F"
+    },
+    {
+      "conversation_id": "977930574475202560",
+      "created_at": "2018-03-25T15:29:52.000Z",
+      "id": "977930574475202560",
+      "edit_history_tweet_ids": [
+        "977930574475202560"
+      ],
+      "author_id": "14763210",
+      "text": "Polyamorous people are so annoying, unlike all the other kinds of people, who are *squints at notes, scratches head, pulls out calculator, double checks math* also so annoying?"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_955696155937181696"
+        ]
+      },
+      "conversation_id": "955696158420226049",
+      "created_at": "2018-01-23T06:58:14.000Z",
+      "id": "955696158420226049",
+      "edit_history_tweet_ids": [
+        "955696158420226049"
+      ],
+      "author_id": "2465958361",
+      "text": "By unfortunate necessity, I must do a thread on the Reagan years.\n\nMillennials: If your life sucks, blame your parents for voting Reagan https://t.co/b07vQr3evf"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_951519511177383936"
+        ]
+      },
+      "conversation_id": "951519515615137792",
+      "created_at": "2018-01-11T18:21:45.000Z",
+      "id": "951519515615137792",
+      "edit_history_tweet_ids": [
+        "951519515615137792"
+      ],
+      "author_id": "14763210",
+      "text": "Guess I should get attacked by a bear. https://t.co/Vzh5d2ypN5"
+    },
+    {
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "30",
+            "name": "Entities [Entity Service]",
+            "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+          },
+          "entity": {
+            "id": "781974596752842752",
+            "name": "Services"
+          }
+        },
+        {
+          "domain": {
+            "id": "47",
+            "name": "Brand",
+            "description": "Brands and Companies"
+          },
+          "entity": {
+            "id": "10045225402",
+            "name": "X"
+          }
+        }
+      ],
+      "conversation_id": "946240055986749440",
+      "created_at": "2017-12-28T04:43:04.000Z",
+      "id": "946240055986749440",
+      "edit_history_tweet_ids": [
+        "946240055986749440"
+      ],
+      "author_id": "33791270",
+      "text": "1) Got engaged to an amazing woman. \n\n2) Received a promotion at work \n\n3) Redecorated our home. https://t.co/szwto8FzSx"
+    },
+    {
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "13",
+            "name": "Place",
+            "description": "Named places in the world, like Fenway Park"
+          },
+          "entity": {
+            "id": "855410081906556930",
+            "name": "Germany",
+            "description": "Germany"
+          }
+        }
+      ],
+      "conversation_id": "939636709221912577",
+      "created_at": "2017-12-10T00:18:25.000Z",
+      "referenced_tweets": [
+        {
+          "type": "replied_to",
+          "id": "939636709221912577"
+        }
+      ],
+      "id": "939650475024093184",
+      "edit_history_tweet_ids": [
+        "939650475024093184"
+      ],
+      "author_id": "33791270",
+      "text": "@smlieber84 It’s how the temps work in Germany. Just go with it.",
+      "in_reply_to_user_id": "81957315"
+    },
+    {
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "10",
+            "name": "Person",
+            "description": "Named people in the world like Nelson Mandela"
+          },
+          "entity": {
+            "id": "890265874191470592",
+            "name": "Catherine Cortez Masto",
+            "description": "US Senator Catherine Cortez Masto (NV)"
+          }
+        },
+        {
+          "domain": {
+            "id": "10",
+            "name": "Person",
+            "description": "Named people in the world like Nelson Mandela"
+          },
+          "entity": {
+            "id": "890379267661471744",
+            "name": "Dean Heller",
+            "description": "US Senator Dean Heller (NV)"
+          }
+        },
+        {
+          "domain": {
+            "id": "35",
+            "name": "Politician",
+            "description": "Politicians in the world, like Joe Biden"
+          },
+          "entity": {
+            "id": "890265874191470592",
+            "name": "Catherine Cortez Masto",
+            "description": "US Senator Catherine Cortez Masto (NV)"
+          }
+        },
+        {
+          "domain": {
+            "id": "35",
+            "name": "Politician",
+            "description": "Politicians in the world, like Joe Biden"
+          },
+          "entity": {
+            "id": "890379267661471744",
+            "name": "Dean Heller",
+            "description": "US Senator Dean Heller (NV)"
+          }
+        }
+      ],
+      "attachments": {
+        "media_keys": [
+          "3_939628508698918912"
+        ]
+      },
+      "conversation_id": "939628528961667072",
+      "created_at": "2017-12-09T22:51:13.000Z",
+      "id": "939628528961667072",
+      "edit_history_tweet_ids": [
+        "939628528961667072"
+      ],
+      "author_id": "16632905",
+      "text": "Had a great day in the life of terminal cancer! Was a guest on @ChipEvansShow with @lpackard from Vegas, hung w my kiddos, spoke w wonderful @SenCortezMasto and am maybe going to DC on Mon to meet w @DeanHeller . Using my life to be a voice for others about #TaxBill ! Plz RT! https://t.co/1UK1nviiOp"
+    },
+    {
+      "conversation_id": "938521155480190977",
+      "created_at": "2017-12-06T21:30:55.000Z",
+      "id": "938521155480190977",
+      "edit_history_tweet_ids": [
+        "938521155480190977"
+      ],
+      "author_id": "14763210",
+      "text": "When I'm president, we're not gonna say \"Happy holidays\" anymore. \nWe're gonna say \"UNhappy holidays!\" \nAnd \"Miserable Christmas.\" \nAnd \"Fuck you.\""
+    },
+    {
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "3",
+            "name": "TV Shows",
+            "description": "Television shows from around the world"
+          },
+          "entity": {
+            "id": "10000621827",
+            "name": "Saturday Night Live",
+            "description": "Saturday Night Live is NBC's Emmy Award-winning late-night comedy showcase, now in its 48th season.\n\n"
+          }
+        },
+        {
+          "domain": {
+            "id": "69",
+            "name": "News Vertical",
+            "description": "News Categories like Entertainment or Technology"
+          },
+          "entity": {
+            "id": "840159122012102656",
+            "name": "Political News",
+            "description": "Political News"
+          }
+        },
+        {
+          "domain": {
+            "id": "10",
+            "name": "Person",
+            "description": "Named people in the world like Nelson Mandela"
+          },
+          "entity": {
+            "id": "877326096261201922",
+            "name": "Al Franken",
+            "description": "Former US Senator Al Franken (MN)"
+          }
+        },
+        {
+          "domain": {
+            "id": "35",
+            "name": "Politician",
+            "description": "Politicians in the world, like Joe Biden"
+          },
+          "entity": {
+            "id": "877326096261201922",
+            "name": "Al Franken",
+            "description": "Former US Senator Al Franken (MN)"
+          }
+        }
+      ],
+      "conversation_id": "938827323071135745",
+      "created_at": "2017-12-07T17:47:31.000Z",
+      "id": "938827323071135745",
+      "edit_history_tweet_ids": [
+        "938827323071135745"
+      ],
+      "author_id": "14763210",
+      "text": "It's weird that Al Franken has to be replaced in the senate by another ex-SNL cast member, but I didn't write the constitution. Anyway, it should be Ellen Cleghorn."
+    },
+    {
+      "conversation_id": "938263713391529984",
+      "created_at": "2017-12-06T09:17:09.000Z",
+      "referenced_tweets": [
+        {
+          "type": "replied_to",
+          "id": "938263713391529984"
+        }
+      ],
+      "id": "938336498478444545",
+      "edit_history_tweet_ids": [
+        "938336498478444545"
+      ],
+      "author_id": "2322428008",
+      "text": "@guypbenson @RandyEBarnett This is false equivalence to distract from needed #GunControl laws. Stop mentally ill domestic abusers from easily getting a firearm. Why do people need an #army #ASSAULT rifle for self defence? #MassShootings are responsible for more murders then any other crime in #America",
+      "in_reply_to_user_id": "16193222"
+    },
+    {
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "10",
+            "name": "Person",
+            "description": "Named people in the world like Nelson Mandela"
+          },
+          "entity": {
+            "id": "931132378256252928",
+            "name": "Charles Manson",
+            "description": "Charles Manson"
+          }
+        }
+      ],
+      "conversation_id": "931616325411024896",
+      "created_at": "2017-11-17T20:13:35.000Z",
+      "id": "931616325411024896",
+      "edit_history_tweet_ids": [
+        "931616325411024896"
+      ],
+      "author_id": "17995040",
+      "text": "Guys, before determining whether to be happy that Charles Manson is going to die, we should first think about how he votes. The country is at stake."
+    },
+    {
+      "conversation_id": "930118526710493185",
+      "created_at": "2017-11-13T21:38:48.000Z",
+      "referenced_tweets": [
+        {
+          "type": "replied_to",
+          "id": "930118526710493185"
+        }
+      ],
+      "id": "930188219538436096",
+      "edit_history_tweet_ids": [
+        "930188219538436096"
+      ],
+      "author_id": "22529585",
+      "text": "@blancpain Real answer: being approachable, knowledgeable, doing great work and solving our clients' problems in interesting ways",
+      "in_reply_to_user_id": "14801455"
+    },
+    {
+      "conversation_id": "924007269376909313",
+      "created_at": "2017-10-27T20:17:54.000Z",
+      "id": "924007269376909313",
+      "edit_history_tweet_ids": [
+        "924007269376909313"
+      ],
+      "author_id": "1704646470",
+      "text": "Better idea: people shouldn't engage in sexual harassment &amp; if they feel they're incapable of avoiding doing so, seek professional treatment https://t.co/HFlPK9OqgJ"
+    },
+    {
+      "conversation_id": "923974586995232768",
+      "created_at": "2017-10-27T18:08:02.000Z",
+      "id": "923974586995232768",
+      "edit_history_tweet_ids": [
+        "923974586995232768"
+      ],
+      "author_id": "16893929",
+      "text": "\"All that anger's unleashed.\" How sexual misconduct stories can convince other victims to come forward https://t.co/DzeT87RXwL"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_920276938463248384"
+        ]
+      },
+      "conversation_id": "920282801450160128",
+      "created_at": "2017-10-17T13:38:12.000Z",
+      "id": "920282801450160128",
+      "edit_history_tweet_ids": [
+        "920282801450160128"
+      ],
+      "author_id": "594666501",
+      "text": "How nice: Audio version of LIGHT FALLS -- our stage piece on @AlbertEinstein and discovery of general relativity -- was number 1 last week. https://t.co/AZMKVaFOnt"
+    },
+    {
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "11",
+            "name": "Sport",
+            "description": "Types of sports, like soccer and basketball"
+          },
+          "entity": {
+            "id": "769193663230468096",
+            "name": "Baseball"
+          }
+        }
+      ],
+      "conversation_id": "918692849457102855",
+      "created_at": "2017-10-13T04:20:18.000Z",
+      "id": "918692849457102855",
+      "edit_history_tweet_ids": [
+        "918692849457102855"
+      ],
+      "author_id": "85603861",
+      "text": "I cannot believe what I'm watching. This is the dumbest, most glorious, best, worst baseball game I've ever seen."
+    },
+    {
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "30",
+            "name": "Entities [Entity Service]",
+            "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+          },
+          "entity": {
+            "id": "825047692124442624",
+            "name": "Food",
+            "description": "Food"
+          }
+        },
+        {
+          "domain": {
+            "id": "30",
+            "name": "Entities [Entity Service]",
+            "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+          },
+          "entity": {
+            "id": "824777229892661248",
+            "name": "Generic Food",
+            "description": "Generic Food"
+          }
+        },
+        {
+          "domain": {
+            "id": "30",
+            "name": "Entities [Entity Service]",
+            "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+          },
+          "entity": {
+            "id": "825055891908988929",
+            "name": "French fries",
+            "description": "French Fries"
+          }
+        }
+      ],
+      "conversation_id": "918635409235734528",
+      "created_at": "2017-10-13T00:32:03.000Z",
+      "id": "918635409235734528",
+      "edit_history_tweet_ids": [
+        "918635409235734528"
+      ],
+      "author_id": "243800816",
+      "text": "About to hit 10K followers and I'd like to use my platform to say: putting ketchup on fries ruins them; fries should be eaten with salt only"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_915228641818284034",
+          "3_915228673959178240",
+          "3_915228697434705920"
+        ]
+      },
+      "conversation_id": "915228726169948160",
+      "created_at": "2017-10-03T14:55:07.000Z",
+      "id": "915228726169948160",
+      "edit_history_tweet_ids": [
+        "915228726169948160"
+      ],
+      "author_id": "22529585",
+      "text": "Trying my hand at a horizontally stressed font in diff weights, no idea how to handle the `x,' 'z' also stressing me out! https://t.co/5v4gttakis"
+    },
+    {
+      "conversation_id": "912423389607940096",
+      "created_at": "2017-09-25T21:07:42.000Z",
+      "id": "912423389607940096",
+      "edit_history_tweet_ids": [
+        "912423389607940096"
+      ],
+      "author_id": "33791270",
+      "text": "I'll be on @ESPNWestPalm tonight with @JoeC1063 from 6-8pm. We'll talk about protesting the anthem since nobody has talked about this yet."
+    },
+    {
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "13",
+            "name": "Place",
+            "description": "Named places in the world, like Fenway Park"
+          },
+          "entity": {
+            "id": "855431258699997185",
+            "name": "New England",
+            "description": "New England"
+          }
+        },
+        {
+          "domain": {
+            "id": "30",
+            "name": "Entities [Entity Service]",
+            "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+          },
+          "entity": {
+            "id": "839159814991167489",
+            "name": "Travel",
+            "description": "Travel"
+          }
+        },
+        {
+          "domain": {
+            "id": "66",
+            "name": "Interests and Hobbies Category",
+            "description": "A grouping of interests and hobbies entities, like Novelty Food or Destinations"
+          },
+          "entity": {
+            "id": "864938653063159808",
+            "name": "Hospitality",
+            "description": "Hospitality"
+          }
+        },
+        {
+          "domain": {
+            "id": "67",
+            "name": "Interests and Hobbies",
+            "description": "Interests, opinions, and behaviors of individuals, groups, or cultures; like Speciality Cooking or Theme Parks"
+          },
+          "entity": {
+            "id": "864939492947275776",
+            "name": "Hotel/Motel",
+            "description": "Hotel/Motel"
+          }
+        }
+      ],
+      "attachments": {
+        "media_keys": [
+          "3_909028481853476866",
+          "3_909028481866100736",
+          "3_909028481882902528"
+        ]
+      },
+      "conversation_id": "909028573251502080",
+      "created_at": "2017-09-16T12:17:55.000Z",
+      "id": "909028573251502080",
+      "edit_history_tweet_ids": [
+        "909028573251502080"
+      ],
+      "author_id": "84070700",
+      "text": "I will be speaking at the New England Pediatric Sickle Cell Consortium Seminar, October 5th 2017|Beechwood Hotel, Worcester, @ICInclusion https://t.co/0A7AzE9PBO"
+    },
+    {
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "11",
+            "name": "Sport",
+            "description": "Types of sports, like soccer and basketball"
+          },
+          "entity": {
+            "id": "706083902411055104",
+            "name": "Basketball"
+          }
+        }
+      ],
+      "conversation_id": "895320801951367169",
+      "created_at": "2017-08-09T16:28:08.000Z",
+      "referenced_tweets": [
+        {
+          "type": "quoted",
+          "id": "895299178024370176"
+        }
+      ],
+      "id": "895320801951367169",
+      "edit_history_tweet_ids": [
+        "895320801951367169"
+      ],
+      "author_id": "33791270",
+      "text": "I play in the Jewish Basketball League at Temple Beth Shalom. Our small forward is the Rabbi so you'll have to come off the bench. https://t.co/mtD8e3QF8U"
+    },
+    {
+      "conversation_id": "897301057835073536",
+      "created_at": "2017-08-15T03:36:57.000Z",
+      "id": "897301057835073536",
+      "edit_history_tweet_ids": [
+        "897301057835073536"
+      ],
+      "author_id": "84208120",
+      "text": "Congress needs diversity. It has more than 200 lawyers! https://t.co/m1P87mvRSx"
+    },
+    {
+      "conversation_id": "887910043898740736",
+      "created_at": "2017-07-20T12:16:10.000Z",
+      "referenced_tweets": [
+        {
+          "type": "replied_to",
+          "id": "887910043898740736"
+        }
+      ],
+      "id": "888009638049972224",
+      "edit_history_tweet_ids": [
+        "888009638049972224"
+      ],
+      "author_id": "22529585",
+      "text": "@jaredNova That's called meth, jared",
+      "in_reply_to_user_id": "292137997"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_873179045466447873"
+        ]
+      },
+      "conversation_id": "873179050784813056",
+      "created_at": "2017-06-09T14:04:43.000Z",
+      "id": "873179050784813056",
+      "edit_history_tweet_ids": [
+        "873179050784813056"
+      ],
+      "author_id": "16614829",
+      "text": "Wat https://t.co/w4u2QZx8FX"
+    },
+    {
+      "conversation_id": "872622771947393024",
+      "created_at": "2017-06-08T01:14:16.000Z",
+      "id": "872622771947393024",
+      "edit_history_tweet_ids": [
+        "872622771947393024"
+      ],
+      "author_id": "84208120",
+      "text": "I apologize. #naacp #aclu #dccc #emilyslist #WomensMarch #fldems \nhttps://t.co/uNhOXnCMpL"
+    },
+    {
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "29",
+            "name": "Events [Entity Service]",
+            "description": "Real world events. "
+          },
+          "entity": {
+            "id": "871798128130662404",
+            "name": "Comey Testifies Before Senate Intelligence Committee",
+            "description": "James Comey Testifies before Senate Select Committee on Intelligence"
+          }
+        },
+        {
+          "domain": {
+            "id": "30",
+            "name": "Entities [Entity Service]",
+            "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+          },
+          "entity": {
+            "id": "781972125179518977",
+            "name": "Auto Manufacturer - Auto"
+          }
+        },
+        {
+          "domain": {
+            "id": "47",
+            "name": "Brand",
+            "description": "Brands and Companies"
+          },
+          "entity": {
+            "id": "10026396098",
+            "name": "Buick"
+          }
+        }
+      ],
+      "conversation_id": "872858026289618944",
+      "created_at": "2017-06-08T16:49:05.000Z",
+      "id": "872858026289618944",
+      "edit_history_tweet_ids": [
+        "872858026289618944"
+      ],
+      "author_id": "22529585",
+      "text": "If this hearing was a roadside farmstand John McCain just drove through it with his gold Buick LeSabre"
+    },
+    {
+      "context_annotations": [
+        {
+          "domain": {
+            "id": "3",
+            "name": "TV Shows",
+            "description": "Television shows from around the world"
+          },
+          "entity": {
+            "id": "10033407327",
+            "name": "Futebol NFL"
+          }
+        },
+        {
+          "domain": {
+            "id": "3",
+            "name": "TV Shows",
+            "description": "Television shows from around the world"
+          },
+          "entity": {
+            "id": "10042261464",
+            "name": "Fútbol Americano de la NFL"
+          }
+        },
+        {
+          "domain": {
+            "id": "26",
+            "name": "Sports League",
+            "description": ""
+          },
+          "entity": {
+            "id": "689566314835259392",
+            "name": "NFL"
+          }
+        },
+        {
+          "domain": {
+            "id": "45",
+            "name": "Brand Vertical",
+            "description": "Top level entities that describe a Brands industry"
+          },
+          "entity": {
+            "id": "781974597310615553",
+            "name": "Entertainment"
+          }
+        },
+        {
+          "domain": {
+            "id": "47",
+            "name": "Brand",
+            "description": "Brands and Companies"
+          },
+          "entity": {
+            "id": "10042758256",
+            "name": "NFL"
+          }
+        }
+      ],
+      "conversation_id": "869353919708835842",
+      "created_at": "2017-05-30T00:45:00.000Z",
+      "id": "869353919708835842",
+      "edit_history_tweet_ids": [
+        "869353919708835842"
+      ],
+      "author_id": "22529585",
+      "text": "These post-goal offside reviews in hockey must be an effort to attract all the NFL fans"
+    },
+    {
+      "conversation_id": "863368157951557632",
+      "created_at": "2017-05-13T12:19:44.000Z",
+      "id": "863368157951557632",
+      "edit_history_tweet_ids": [
+        "863368157951557632"
+      ],
+      "author_id": "84208120",
+      "text": "How any Republican thinks a win in District 27 is possible where 96k people need the ACA is a mystery to me. #nottoosharp #ACA #southflorida"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_863058975935393794"
+        ]
+      },
+      "conversation_id": "863058978816884736",
+      "created_at": "2017-05-12T15:51:10.000Z",
+      "id": "863058978816884736",
+      "edit_history_tweet_ids": [
+        "863058978816884736"
+      ],
+      "author_id": "84070700",
+      "text": "Next disability leaders trained by @ICInclusion @UMassBoston https://t.co/U5PuVimuGa"
+    },
+    {
+      "conversation_id": "745957071443664896",
+      "created_at": "2016-06-23T12:29:59.000Z",
+      "referenced_tweets": [
+        {
+          "type": "quoted",
+          "id": "745844777875275776"
+        }
+      ],
+      "id": "745957071443664896",
+      "edit_history_tweet_ids": [
+        "745957071443664896"
+      ],
+      "author_id": "738538436",
+      "text": "A bit amazed that in this moral fight, he focuses on political efficacy. Elsewhere, as fools rush in, he moralizes: https://t.co/uBjkc3C2Vh"
+    },
+    {
+      "conversation_id": "745810767644102656",
+      "created_at": "2016-06-23T02:48:38.000Z",
+      "id": "745810767644102656",
+      "edit_history_tweet_ids": [
+        "745810767644102656"
+      ],
+      "author_id": "12382582",
+      "text": "Old threat to democracy: Citizens United ; New Threat: pop up ads about belly fat.  https://t.co/SmihpzboSX"
+    },
+    {
+      "conversation_id": "327235066449235971",
+      "created_at": "2013-04-25T01:38:14.000Z",
+      "id": "327235066449235971",
+      "edit_history_tweet_ids": [
+        "327235066449235971"
+      ],
+      "author_id": "58957238",
+      "text": "Someone please tell me that Omer Asik walks around Houston in a USA t-shirt and cowboy hat"
+    }
+  ],
+  "includes": {
+    "users": [
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "Jason Pargin, author of John Dies at the End, etc",
+        "id": "23404794",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1069463445815222273/AjhPE6ho_normal.jpg",
+        "username": "JasonKPargin"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "Duncan Jones",
+        "id": "20690398",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1679513417013678080/gxn2hQmd_normal.jpg",
+        "username": "ManMadeMoon"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "Pen Farthing",
+        "id": "312504426",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1684992051690008591/gUvAqvU2_normal.jpg",
+        "username": "PenFarthing"
+      },
+      {
+        "verified_type": "blue",
+        "verified": true,
+        "name": "Spencer “Twelve Days of” Klavan 🌟",
+        "id": "359358437",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1645793253214818304/Y4SZWU4c_normal.jpg",
+        "username": "SpencerKlavan"
+      },
+      {
+        "verified_type": "blue",
+        "verified": true,
+        "name": "Liam McCollum",
+        "id": "814384391761731584",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1698046650634084352/m0EhztKg_normal.jpg",
+        "username": "MLiamMcCollum"
+      },
+      {
+        "verified_type": "blue",
+        "verified": true,
+        "name": "Antonio García Martínez (agm.eth)",
+        "id": "11582012",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1523142288892784640/yyQrxZ4U_normal.jpg",
+        "username": "antoniogm"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "Mike Pesca",
+        "id": "12382582",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1457450283353653250/4mb7s5Oe_normal.jpg",
+        "username": "pescami"
+      },
+      {
+        "verified_type": "blue",
+        "verified": true,
+        "name": "Tim Dillon",
+        "id": "353422065",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1649061881917710336/i_n4--d0_normal.jpg",
+        "username": "TimJDillon"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "Lil Sasquatch",
+        "id": "2403074547",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1115341489897340930/y_vuTPad_normal.jpg",
+        "username": "lilsasquatch66"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "Weird Online Reviews",
+        "id": "1417487638722977799",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1420122114556932098/ZT6w1nzl_normal.jpg",
+        "username": "reviews0context"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "Mark Farina",
+        "id": "50206480",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1509911840075272200/i1e6KFNZ_normal.jpg",
+        "username": "djmarkfarina"
+      },
+      {
+        "verified_type": "blue",
+        "verified": true,
+        "name": "Rodger Sherman",
+        "id": "116041165",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1717907544427970560/k3skU96z_normal.jpg",
+        "username": "rodger"
+      },
+      {
+        "verified_type": "blue",
+        "verified": true,
+        "name": "Peter Schiff",
+        "id": "56562803",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1679540487743496205/LcNCN4tX_normal.jpg",
+        "username": "PeterSchiff"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "TripleJokerSince24",
+        "id": "231504942",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1657946581721841664/ktntJy_k_normal.jpg",
+        "username": "FanSince09"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "CJ Fogler account may or may not be notable",
+        "id": "26951168",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1404834971924238336/iFFt6gEM_normal.jpg",
+        "username": "cjzero"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "Colin Quinn",
+        "id": "28422142",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/378800000050695543/065a185d5f3c1eade0e3bbb5196db3c2_normal.jpeg",
+        "username": "iamcolinquinn"
+      },
+      {
+        "verified_type": "blue",
+        "verified": true,
+        "name": "Tom Brady",
+        "id": "1108050829393707008",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1707050650104635392/7-kwYNTg_normal.jpg",
+        "username": "TomBrady"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "pixelatedboat aka “mr tweets”",
+        "id": "2999158160",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/875489341291675649/hc8K1aT0_normal.jpg",
+        "username": "pixelatedboat"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "🦆 Eliza Herndon! 🦆",
+        "id": "951211732562739207",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1746722568088735744/e9qqcCck_normal.jpg",
+        "username": "duck_twacy"
+      },
+      {
+        "verified_type": "blue",
+        "verified": true,
+        "name": "Jay King",
+        "id": "38032945",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/519177960922693633/n3qanpVS_normal.jpeg",
+        "username": "ByJayKing"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "Soren Bowie",
+        "id": "205838761",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1596649098538426368/UETRpFqj_normal.jpg",
+        "username": "Soren_Ltd"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "teezo touchgrass",
+        "id": "2432454277",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1701394887994949632/vSmdsSlF_normal.jpg",
+        "username": "toriimacdaddy"
+      },
+      {
+        "verified_type": "blue",
+        "verified": true,
+        "name": "Freezing Cold Takes",
+        "id": "172580748",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1050155943881830400/w498snqr_normal.jpg",
+        "username": "OldTakesExposed"
+      },
+      {
+        "verified_type": "blue",
+        "verified": true,
+        "name": "Lee Fang",
+        "id": "7900962",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1735433505541386240/AkUOI7pu_normal.jpg",
+        "username": "lhfang"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "tony parker",
+        "id": "101685135",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1715356749618712576/44SHdsBh_normal.jpg",
+        "username": "tonyparker32"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "Spoon & Tamago",
+        "id": "18905879",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/917443972791971841/1cjz2yjU_normal.jpg",
+        "username": "Johnny_suputama"
+      },
+      {
+        "verified_type": "blue",
+        "verified": true,
+        "name": "Frank Chaparro",
+        "id": "2933805082",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1744400879489277959/hrBWk3zu_normal.jpg",
+        "username": "fintechfrank"
+      },
+      {
+        "verified_type": "business",
+        "verified": true,
+        "name": "Alex Becker 🍊🏆🥇",
+        "id": "1243470638477697024",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1550828422762577922/S3-NhpCA_normal.jpg",
+        "username": "ZssBecker"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "Jared Novack",
+        "id": "292137997",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1337259289/jaredtv_normal.png",
+        "username": "jaredNova"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "Tom Sannicandro",
+        "id": "84070700",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1572569099267342336/JJctsd24_normal.jpg",
+        "username": "TSannicandro"
+      },
+      {
+        "verified_type": "blue",
+        "verified": true,
+        "name": "SafeMoon",
+        "id": "1366256262921523205",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1719705318601408512/45Que3fW_normal.jpg",
+        "username": "safemoon"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "Timber for WordPress",
+        "id": "1546159537",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/768086933310476288/acGwPDj4_normal.jpg",
+        "username": "TimberWP"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "Tito Jackson",
+        "id": "16113639",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1602722470745759744/uE081s8u_normal.jpg",
+        "username": "titojackson"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "Patrick 🦋",
+        "id": "1351273144355614721",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1647916603412041729/fW6IPL4G_normal.jpg",
+        "username": "Patrickscoin"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "Gogi Gupta",
+        "id": "14845764",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1276650939051651074/jui5kjkU_normal.jpg",
+        "username": "gogigupta"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "Nate Cohn",
+        "id": "463765807",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/801910537219088384/5j_VZ84y_normal.jpg",
+        "username": "Nate_Cohn"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "mike",
+        "id": "22529585",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1573008484538454020/efbCEh9k_normal.jpg",
+        "username": "mikeswartz_"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "grace spelman",
+        "id": "75604826",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1677524224444108801/BCmDEMus_normal.jpg",
+        "username": "GraceSpelman"
+      },
+      {
+        "verified_type": "blue",
+        "verified": true,
+        "name": "JARED LETO",
+        "id": "27711339",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1702545028890148865/orx7h63r_normal.jpg",
+        "username": "JaredLeto"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "Elleigh Kae",
+        "id": "2874997955",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/852229921187536897/kGRZ9sLa_normal.jpg",
+        "username": "ElleighKae"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "Win the Era HQ",
+        "id": "1143571304404148224",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1378381898720940040/GqhNm_fN_normal.png",
+        "username": "wintheera"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "Josiah Neeley",
+        "id": "214176777",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1629258867971436544/tV4x-9nm_normal.jpg",
+        "username": "jneeley78"
+      },
+      {
+        "verified_type": "blue",
+        "verified": true,
+        "name": "David Spade",
+        "id": "22657153",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1309624550720548864/IJt9D3iC_normal.jpg",
+        "username": "DavidSpade"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "❌ BigDaddys ❌ Pube Shoppe ❌",
+        "id": "3101753763",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/579272658631593984/n5bwnAXi_normal.png",
+        "username": "BigDaddysShoppe"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "#MAGA",
+        "id": "1018921918571790336",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1055674928580554753/td2SiUat_normal.jpg",
+        "username": "CaliToiletBowl"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "Ryan Lieber",
+        "id": "33791270",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1299171637926006786/E8Ht4jOj_normal.jpg",
+        "username": "ryandlieber"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "Scott Lieber",
+        "id": "81957315",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/613123885249093632/xur7NGtz_normal.jpg",
+        "username": "smlieber84"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "Tanooki Joe",
+        "id": "15962154",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1746526354374291456/rccIZP9w_normal.jpg",
+        "username": "TanookiKuribo"
+      },
+      {
+        "verified_type": "blue",
+        "verified": true,
+        "name": "SN Ohio",
+        "id": "2728231805",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1265312830229807105/NRWATKTi_normal.jpg",
+        "username": "SN_Ohio"
+      },
+      {
+        "verified_type": "blue",
+        "verified": true,
+        "name": "PBS NewsHour",
+        "id": "14437914",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/875456540450443265/W5yKx8um_normal.jpg",
+        "username": "NewsHour"
+      },
+      {
+        "verified_type": "blue",
+        "verified": true,
+        "name": "jill gunter",
+        "id": "169312819",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1567592923293794304/89IH2_M-_normal.jpg",
+        "username": "jillrgunter"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "mtobey.bsky.social",
+        "id": "14763210",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1680258637707526144/29KgGC8u_normal.jpg",
+        "username": "mtobey"
+      },
+      {
+        "verified_type": "blue",
+        "verified": true,
+        "name": "Esha K",
+        "id": "2465958361",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1430947030894092292/duOq4jUQ_normal.jpg",
+        "username": "eshaLegal"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "💙#EmilysTerminalCancerJourney 💙#FightForMedicaid",
+        "id": "16632905",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/938812817544585216/YkHxTZ-k_normal.jpg",
+        "username": "mlereese"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "Lucy",
+        "id": "2322428008",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1678124337738530820/tzC64H5y_normal.jpg",
+        "username": "21Lucym"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "Guy Benson",
+        "id": "16193222",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1749979685000183808/0UcFylsI_normal.jpg",
+        "username": "guypbenson"
+      },
+      {
+        "verified_type": "blue",
+        "verified": true,
+        "name": "Ben Shapiro",
+        "id": "17995040",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1580596905721171969/0NnLeJWA_normal.jpg",
+        "username": "benshapiro"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "Thierry Blancpain",
+        "id": "14801455",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/428190083980607488/bnR4ZN0X_normal.jpeg",
+        "username": "blancpain"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "Miranda Yaver, PhD",
+        "id": "1704646470",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1678798429609250822/4rLOlUCI_normal.jpg",
+        "username": "mirandayaver"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "“Mark Berman”",
+        "id": "16893929",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1481015422984105984/okT52n_b_normal.jpg",
+        "username": "markberman"
+      },
+      {
+        "verified_type": "blue",
+        "verified": true,
+        "name": "Brian Greene",
+        "id": "594666501",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1136711265840259074/lYrF4roe_normal.png",
+        "username": "bgreene"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "Adam Kilgore",
+        "id": "85603861",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/493108829/adam_nubble_normal.jpg",
+        "username": "AdamKilgoreWP"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "Natalie Shure",
+        "id": "243800816",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1729492885668605952/iSxTCxzD_normal.jpg",
+        "username": "nataliesurely"
+      },
+      {
+        "verified_type": "blue",
+        "verified": true,
+        "name": "LeBron James",
+        "id": "23083404",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1421530540063092736/xqtcu8HX_normal.jpg",
+        "username": "KingJames"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "KristenRosenGonzalez",
+        "id": "84208120",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1462955507895914501/25KzrZoh_normal.jpg",
+        "username": "rosengonzalez"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "@elaina.bsky.social",
+        "id": "16614829",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1037737544895541248/DvomTwHi_normal.jpg",
+        "username": "elainanatario"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "David Simon",
+        "id": "738538436",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/622577947434741760/XTFh2S53_normal.jpg",
+        "username": "AoDespair"
+      },
+      {
+        "verified_type": "blue",
+        "verified": true,
+        "name": "Bill Kristol",
+        "id": "2800581040",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/521747547648311296/Z-2ftHoZ_normal.png",
+        "username": "BillKristol"
+      },
+      {
+        "verified_type": "none",
+        "verified": false,
+        "name": "Jake Bressler",
+        "id": "58957238",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1620858657830207516/ngHBThOG_normal.jpg",
+        "username": "jabressler"
+      }
+    ],
+    "media": [
+      {
+        "media_key": "3_1431630673022894080",
+        "width": 1241,
+        "height": 1843,
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/E94sgxMVQAAZYFh.jpg"
+      },
+      {
+        "media_key": "3_1431630673060589571",
+        "width": 1250,
+        "height": 703,
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/E94sgxVUcAMFiex.jpg"
+      },
+      {
+        "media_key": "3_1429212459978485764",
+        "width": 2048,
+        "height": 2048,
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/E9WVKPmUcAQseOg.jpg"
+      },
+      {
+        "media_key": "7_1427657836083908609",
+        "duration_ms": 29486,
+        "width": 844,
+        "public_metrics": {
+          "view_count": 4292312
+        },
+        "height": 484,
+        "type": "video"
+      },
+      {
+        "media_key": "3_1425788167437828102",
+        "width": 593,
+        "height": 192,
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/E8lqyL0WQAY6sji.png"
+      },
+      {
+        "media_key": "3_1423933974133579780",
+        "width": 640,
+        "height": 336,
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/E8LUZ7fXoAQC4n3.jpg"
+      },
+      {
+        "media_key": "3_1423440335104000004",
+        "width": 1242,
+        "height": 951,
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/E8ETcWzWQAQz3HZ.jpg"
+      },
+      {
+        "media_key": "3_1421986666735185922",
+        "width": 3151,
+        "height": 1904,
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/E7vpVuIXsAIJrq5.jpg"
+      },
+      {
+        "media_key": "3_1421986666726805507",
+        "width": 2017,
+        "height": 1253,
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/E7vpVuGX0AM_ITk.jpg"
+      },
+      {
+        "media_key": "3_1420208412240093188",
+        "width": 553,
+        "height": 319,
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/E7WYBr6XoAQtldt.png"
+      },
+      {
+        "media_key": "3_1415805228927094785",
+        "width": 828,
+        "height": 549,
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/E6XzWr1XEAE6vtI.jpg"
+      },
+      {
+        "media_key": "3_1413961636763688960",
+        "width": 1125,
+        "height": 1009,
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/E59mnf1UYAAigC2.jpg"
+      },
+      {
+        "media_key": "3_1413961636759543808",
+        "width": 1100,
+        "height": 1266,
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/E59mnf0VIAAfyts.jpg"
+      },
+      {
+        "media_key": "3_1413961636767956995",
+        "width": 1125,
+        "height": 1537,
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/E59mnf2VgAMhD6b.jpg"
+      },
+      {
+        "media_key": "3_1413961636759498758",
+        "width": 1125,
+        "height": 1185,
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/E59mnf0UcAY9EFZ.jpg"
+      },
+      {
+        "media_key": "7_1317997723036061696",
+        "duration_ms": 139848,
+        "width": 1280,
+        "public_metrics": {
+          "view_count": 5150918
+        },
+        "height": 720,
+        "type": "video"
+      },
+      {
+        "media_key": "7_1411966231360409601",
+        "duration_ms": 17194,
+        "width": 1096,
+        "public_metrics": {
+          "view_count": 6021616
+        },
+        "height": 720,
+        "type": "video"
+      },
+      {
+        "media_key": "3_1402438209548787712",
+        "width": 828,
+        "height": 972,
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/E3Z2HwOXIAAboRM.jpg"
+      },
+      {
+        "media_key": "7_1386019079111290890",
+        "duration_ms": 29766,
+        "width": 960,
+        "public_metrics": {
+          "view_count": 1799720
+        },
+        "height": 960,
+        "type": "video"
+      },
+      {
+        "media_key": "3_1346811519078641665",
+        "width": 800,
+        "height": 533,
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/ErDV8N4WMAEbnWB.jpg"
+      },
+      {
+        "media_key": "3_1324084985343729666",
+        "width": 565,
+        "height": 443,
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/EmAYR2PXYAIGATa.png"
+      },
+      {
+        "media_key": "3_1245749152576933889",
+        "width": 696,
+        "height": 596,
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/EUnKQQaXkAEa--Z.png"
+      },
+      {
+        "media_key": "3_1204443002019729411",
+        "width": 1536,
+        "height": 2048,
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/ELcKh2eXUAMYyag.jpg"
+      },
+      {
+        "media_key": "16_1019268568393740290",
+        "width": 192,
+        "height": 134,
+        "type": "animated_gif"
+      },
+      {
+        "media_key": "7_1011753803794800640",
+        "duration_ms": 24534,
+        "width": 560,
+        "public_metrics": {
+          "view_count": 215923
+        },
+        "height": 452,
+        "type": "video"
+      },
+      {
+        "media_key": "3_985926022540378113",
+        "width": 586,
+        "height": 438,
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/Da62fmxVQAE26ke.jpg"
+      },
+      {
+        "media_key": "3_984566554778988545",
+        "width": 900,
+        "height": 631,
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/DaniEKtU8AE6F_G.jpg"
+      },
+      {
+        "media_key": "3_955696155937181696",
+        "width": 540,
+        "height": 405,
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/DUNQlx_XkAAilkM.jpg"
+      },
+      {
+        "media_key": "3_951519511177383936",
+        "width": 1241,
+        "height": 698,
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/DTR59DyU0AAyeq2.jpg"
+      },
+      {
+        "media_key": "3_939628508698918912",
+        "width": 1394,
+        "height": 1842,
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/DQo7JnnUQAASlr4.jpg"
+      },
+      {
+        "media_key": "3_920276938463248384",
+        "width": 1024,
+        "height": 512,
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/DMV6_-wWAAA6f-q.jpg"
+      },
+      {
+        "media_key": "3_915228641818284034",
+        "width": 825,
+        "height": 950,
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/DLOLmcPXkAIWBcy.jpg"
+      },
+      {
+        "media_key": "3_915228673959178240",
+        "width": 842,
+        "height": 288,
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/DLOLoT-WsAAwV3q.jpg"
+      },
+      {
+        "media_key": "3_915228697434705920",
+        "width": 664,
+        "height": 279,
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/DLOLprbW0AAjGTI.jpg"
+      },
+      {
+        "media_key": "3_909028481853476866",
+        "width": 2142,
+        "height": 2783,
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/DJ2EloeW0AIkkbO.jpg"
+      },
+      {
+        "media_key": "3_909028481866100736",
+        "width": 1700,
+        "height": 2200,
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/DJ2ElohXcAAYQFm.jpg"
+      },
+      {
+        "media_key": "3_909028481882902528",
+        "width": 2142,
+        "height": 2772,
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/DJ2ElolX0AAhl6d.jpg"
+      },
+      {
+        "media_key": "3_873179045466447873",
+        "width": 1536,
+        "height": 2048,
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/DB4nty5XoAE6Hw0.jpg"
+      },
+      {
+        "media_key": "3_863058975935393794",
+        "width": 1024,
+        "height": 768,
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/C_ozkODXcAIeDrk.jpg"
+      }
+    ],
+    "tweets": [
+      {
+        "conversation_id": "1424936395970424834",
+        "created_at": "2021-08-10T03:31:25.000Z",
+        "id": "1424936395970424834",
+        "edit_history_tweet_ids": [
+          "1424936395970424834"
+        ],
+        "author_id": "2403074547",
+        "text": "Mom found the moldy Travis Scott burger in my desk drawer. I tried to explain to her that it’s going to be worth millions one day but she tossed it. This house is a fucking prison."
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "3_1419482316041302020"
+          ]
+        },
+        "conversation_id": "1419482325944045568",
+        "created_at": "2021-07-26T02:18:53.000Z",
+        "id": "1419482325944045568",
+        "edit_history_tweet_ids": [
+          "1419482325944045568"
+        ],
+        "author_id": "26951168",
+        "text": "Imagine getting heckled by this guy https://t.co/8AX15as80L"
+      },
+      {
+        "context_annotations": [
+          {
+            "domain": {
+              "id": "10",
+              "name": "Person",
+              "description": "Named people in the world like Nelson Mandela"
+            },
+            "entity": {
+              "id": "768503359732985856",
+              "name": "Tom Brady",
+              "description": "Tom Brady"
+            }
+          },
+          {
+            "domain": {
+              "id": "60",
+              "name": "Athlete",
+              "description": "An athlete in the world, like Serena Williams or Lionel Messi"
+            },
+            "entity": {
+              "id": "768503359732985856",
+              "name": "Tom Brady",
+              "description": "Tom Brady"
+            }
+          },
+          {
+            "domain": {
+              "id": "131",
+              "name": "Unified Twitter Taxonomy",
+              "description": "A taxonomy of user interests. "
+            },
+            "entity": {
+              "id": "689566306014617600",
+              "name": "American football"
+            }
+          },
+          {
+            "domain": {
+              "id": "131",
+              "name": "Unified Twitter Taxonomy",
+              "description": "A taxonomy of user interests. "
+            },
+            "entity": {
+              "id": "689566314835259392",
+              "name": "NFL"
+            }
+          },
+          {
+            "domain": {
+              "id": "131",
+              "name": "Unified Twitter Taxonomy",
+              "description": "A taxonomy of user interests. "
+            },
+            "entity": {
+              "id": "768503359732985856",
+              "name": "Tom Brady",
+              "description": "Tom Brady"
+            }
+          },
+          {
+            "domain": {
+              "id": "131",
+              "name": "Unified Twitter Taxonomy",
+              "description": "A taxonomy of user interests. "
+            },
+            "entity": {
+              "id": "847900493514891265",
+              "name": "Sports",
+              "description": "Sports"
+            }
+          },
+          {
+            "domain": {
+              "id": "131",
+              "name": "Unified Twitter Taxonomy",
+              "description": "A taxonomy of user interests. "
+            },
+            "entity": {
+              "id": "1263187885970227200",
+              "name": "NFL players"
+            }
+          }
+        ],
+        "attachments": {
+          "media_keys": [
+            "7_1419314495474831363"
+          ]
+        },
+        "conversation_id": "1419314602110865411",
+        "created_at": "2021-07-25T15:12:25.000Z",
+        "id": "1419314602110865411",
+        "edit_history_tweet_ids": [
+          "1419314602110865411"
+        ],
+        "author_id": "1108050829393707008",
+        "text": "Training camp starts this week. I’m looking forward to having some actual receivers again… https://t.co/PDl1puHr46"
+      },
+      {
+        "context_annotations": [
+          {
+            "domain": {
+              "id": "131",
+              "name": "Unified Twitter Taxonomy",
+              "description": "A taxonomy of user interests. "
+            },
+            "entity": {
+              "id": "1192082698568814592",
+              "name": "Animation"
+            }
+          },
+          {
+            "domain": {
+              "id": "131",
+              "name": "Unified Twitter Taxonomy",
+              "description": "A taxonomy of user interests. "
+            },
+            "entity": {
+              "id": "1280550787207147521",
+              "name": "Arts & culture"
+            }
+          }
+        ],
+        "attachments": {
+          "media_keys": [
+            "7_1419394037170200581"
+          ]
+        },
+        "conversation_id": "1419394410597343235",
+        "created_at": "2021-07-25T20:29:33.000Z",
+        "id": "1419394410597343235",
+        "edit_history_tweet_ids": [
+          "1419394410597343235"
+        ],
+        "author_id": "951211732562739207",
+        "text": "gotta say, i think this is one of my favorite fights in a Popeye cartoon so far https://t.co/nPVOrmMEGA"
+      },
+      {
+        "context_annotations": [
+          {
+            "domain": {
+              "id": "131",
+              "name": "Unified Twitter Taxonomy",
+              "description": "A taxonomy of user interests. "
+            },
+            "entity": {
+              "id": "1395478491030638594",
+              "name": "Popular Images"
+            }
+          }
+        ],
+        "attachments": {
+          "media_keys": [
+            "3_1400433817291264011"
+          ]
+        },
+        "conversation_id": "1400434155607969792",
+        "created_at": "2021-06-03T12:48:16.000Z",
+        "id": "1400434155607969792",
+        "edit_history_tweet_ids": [
+          "1400434155607969792"
+        ],
+        "author_id": "1243470638477697024",
+        "text": "To all the people who get pissed because I get bearish, don't hold and call it as I see it...\n\nYou cheered wildly as people told you bullish news on EVERY SINGLE massive dip and lost all your money.\n\nIf our thoughts are aligned, I'm doing it wrong. https://t.co/suLbEo8Ctc"
+      },
+      {
+        "context_annotations": [
+          {
+            "domain": {
+              "id": "10",
+              "name": "Person",
+              "description": "Named people in the world like Nelson Mandela"
+            },
+            "entity": {
+              "id": "1054488376441679872",
+              "name": "Nate Cohn",
+              "description": "Nate Cohn"
+            }
+          },
+          {
+            "domain": {
+              "id": "94",
+              "name": "Journalist",
+              "description": "A journalist like 'Anderson Cooper'"
+            },
+            "entity": {
+              "id": "1054488376441679872",
+              "name": "Nate Cohn",
+              "description": "Nate Cohn"
+            }
+          },
+          {
+            "domain": {
+              "id": "131",
+              "name": "Unified Twitter Taxonomy",
+              "description": "A taxonomy of user interests. "
+            },
+            "entity": {
+              "id": "1046545033657081857",
+              "name": "News",
+              "description": "News"
+            }
+          },
+          {
+            "domain": {
+              "id": "131",
+              "name": "Unified Twitter Taxonomy",
+              "description": "A taxonomy of user interests. "
+            },
+            "entity": {
+              "id": "1054488376441679872",
+              "name": "Nate Cohn",
+              "description": "Nate Cohn"
+            }
+          },
+          {
+            "domain": {
+              "id": "131",
+              "name": "Unified Twitter Taxonomy",
+              "description": "A taxonomy of user interests. "
+            },
+            "entity": {
+              "id": "1074755369530880001",
+              "name": "Journalists",
+              "description": "Journalism"
+            }
+          },
+          {
+            "domain": {
+              "id": "10",
+              "name": "Person",
+              "description": "Named people in the world like Nelson Mandela"
+            },
+            "entity": {
+              "id": "10040395078",
+              "name": "Joe Biden",
+              "description": "US President Joe Biden"
+            }
+          },
+          {
+            "domain": {
+              "id": "35",
+              "name": "Politician",
+              "description": "Politicians in the world, like Joe Biden"
+            },
+            "entity": {
+              "id": "10040395078",
+              "name": "Joe Biden",
+              "description": "US President Joe Biden"
+            }
+          },
+          {
+            "domain": {
+              "id": "131",
+              "name": "Unified Twitter Taxonomy",
+              "description": "A taxonomy of user interests. "
+            },
+            "entity": {
+              "id": "10040395078",
+              "name": "Joe Biden",
+              "description": "US President Joe Biden"
+            }
+          },
+          {
+            "domain": {
+              "id": "131",
+              "name": "Unified Twitter Taxonomy",
+              "description": "A taxonomy of user interests. "
+            },
+            "entity": {
+              "id": "847878884917886977",
+              "name": "Politics",
+              "description": "Politics"
+            }
+          },
+          {
+            "domain": {
+              "id": "131",
+              "name": "Unified Twitter Taxonomy",
+              "description": "A taxonomy of user interests. "
+            },
+            "entity": {
+              "id": "1070032753834438656",
+              "name": "Political figures",
+              "description": "Politician"
+            }
+          },
+          {
+            "domain": {
+              "id": "29",
+              "name": "Events [Entity Service]",
+              "description": "Real world events. "
+            },
+            "entity": {
+              "id": "1318573265820921857",
+              "name": "2020 US Election Day"
+            }
+          }
+        ],
+        "conversation_id": "1324084507549552648",
+        "created_at": "2020-11-04T20:22:01.000Z",
+        "referenced_tweets": [
+          {
+            "type": "quoted",
+            "id": "1324082483755995138"
+          }
+        ],
+        "id": "1324084507549552648",
+        "edit_history_tweet_ids": [
+          "1324084507549552648"
+        ],
+        "author_id": "463765807",
+        "text": "The needle accounts for this, and expects...\nChatham: 75-26\nFulton: 85-16\nDeKalb: 93-7\nAmong remaining mail absentees\nhttps://t.co/vVsV2HRm4v"
+      },
+      {
+        "context_annotations": [
+          {
+            "domain": {
+              "id": "65",
+              "name": "Interests and Hobbies Vertical",
+              "description": "Top level interests and hobbies groupings, like Food or Travel"
+            },
+            "entity": {
+              "id": "903303816698671104",
+              "name": "Wellness and health",
+              "description": "Wellness & Health"
+            }
+          },
+          {
+            "domain": {
+              "id": "67",
+              "name": "Interests and Hobbies",
+              "description": "Interests, opinions, and behaviors of individuals, groups, or cultures; like Speciality Cooking or Theme Parks"
+            },
+            "entity": {
+              "id": "918221163284676608",
+              "name": "Meditation",
+              "description": "Meditation"
+            }
+          },
+          {
+            "domain": {
+              "id": "10",
+              "name": "Person",
+              "description": "Named people in the world like Nelson Mandela"
+            },
+            "entity": {
+              "id": "810934060117696514",
+              "name": "Jared Leto",
+              "description": "Jared Leto"
+            }
+          },
+          {
+            "domain": {
+              "id": "56",
+              "name": "Actor",
+              "description": "An actor or actress in the world, like Kate Winslet or Leonardo DiCaprio"
+            },
+            "entity": {
+              "id": "810934060117696514",
+              "name": "Jared Leto",
+              "description": "Jared Leto"
+            }
+          },
+          {
+            "domain": {
+              "id": "131",
+              "name": "Unified Twitter Taxonomy",
+              "description": "A taxonomy of user interests. "
+            },
+            "entity": {
+              "id": "810934060117696514",
+              "name": "Jared Leto",
+              "description": "Jared Leto"
+            }
+          },
+          {
+            "domain": {
+              "id": "131",
+              "name": "Unified Twitter Taxonomy",
+              "description": "A taxonomy of user interests. "
+            },
+            "entity": {
+              "id": "839544274442051584",
+              "name": "Entertainment"
+            }
+          },
+          {
+            "domain": {
+              "id": "131",
+              "name": "Unified Twitter Taxonomy",
+              "description": "A taxonomy of user interests. "
+            },
+            "entity": {
+              "id": "1095352268046495745",
+              "name": "Celebrities",
+              "description": "Celebrities"
+            }
+          }
+        ],
+        "conversation_id": "1239785964169342976",
+        "created_at": "2020-03-17T05:29:42.000Z",
+        "id": "1239785964169342976",
+        "edit_history_tweet_ids": [
+          "1239785964169342976"
+        ],
+        "author_id": "27711339",
+        "text": "Wow. 12 days ago I began a silent meditation in the desert. We were totally isolated. No phone, no communication etc. We had no idea what was happening outside the facility."
+      },
+      {
+        "context_annotations": [
+          {
+            "domain": {
+              "id": "29",
+              "name": "Events [Entity Service]",
+              "description": "Real world events. "
+            },
+            "entity": {
+              "id": "1029453725360775168",
+              "name": "2020 US Presidential Election",
+              "description": "2020 US Presidential Election"
+            }
+          }
+        ],
+        "attachments": {
+          "media_keys": [
+            "7_1184626341167140864"
+          ]
+        },
+        "conversation_id": "1184626704310063106",
+        "created_at": "2019-10-17T00:26:30.000Z",
+        "id": "1184626704310063106",
+        "edit_history_tweet_ids": [
+          "1184626704310063106"
+        ],
+        "author_id": "1143571304404148224",
+        "text": "We won the #DemDebate. Now help us win the era: https://t.co/ZabR8Cu9SP https://t.co/2ZVkOzvVW9"
+      },
+      {
+        "context_annotations": [
+          {
+            "domain": {
+              "id": "87",
+              "name": "Movie Genre",
+              "description": "A movie genre like Action"
+            },
+            "entity": {
+              "id": "856976742166048769",
+              "name": "Documentary films",
+              "description": "Documentary"
+            }
+          },
+          {
+            "domain": {
+              "id": "131",
+              "name": "Unified Twitter Taxonomy",
+              "description": "A taxonomy of user interests. "
+            },
+            "entity": {
+              "id": "839544274442051584",
+              "name": "Entertainment"
+            }
+          },
+          {
+            "domain": {
+              "id": "131",
+              "name": "Unified Twitter Taxonomy",
+              "description": "A taxonomy of user interests. "
+            },
+            "entity": {
+              "id": "856976742166048769",
+              "name": "Documentary films",
+              "description": "Documentary"
+            }
+          },
+          {
+            "domain": {
+              "id": "131",
+              "name": "Unified Twitter Taxonomy",
+              "description": "A taxonomy of user interests. "
+            },
+            "entity": {
+              "id": "1072936713134071808",
+              "name": "Movies",
+              "description": "Movies"
+            }
+          }
+        ],
+        "conversation_id": "1172338938410700803",
+        "created_at": "2019-09-13T02:39:18.000Z",
+        "id": "1172338938410700803",
+        "edit_history_tweet_ids": [
+          "1172338938410700803"
+        ],
+        "author_id": "214176777",
+        "text": "Booker’s biggest setback was having a documentary made about his heroism"
+      },
+      {
+        "context_annotations": [
+          {
+            "domain": {
+              "id": "30",
+              "name": "Entities [Entity Service]",
+              "description": "Entity Service top level domain, every item that is in Entity Service should be in this domain"
+            },
+            "entity": {
+              "id": "781974596752842752",
+              "name": "Services"
+            }
+          },
+          {
+            "domain": {
+              "id": "47",
+              "name": "Brand",
+              "description": "Brands and Companies"
+            },
+            "entity": {
+              "id": "10045225402",
+              "name": "X"
+            }
+          }
+        ],
+        "conversation_id": "1023604457735577601",
+        "created_at": "2018-07-29T16:21:35.000Z",
+        "referenced_tweets": [
+          {
+            "type": "quoted",
+            "id": "1023402569576718337"
+          }
+        ],
+        "id": "1023604457735577601",
+        "edit_history_tweet_ids": [
+          "1023604457735577601"
+        ],
+        "author_id": "1018921918571790336",
+        "text": "Now that's classic. I bet the liberals think you're a Russian bot. I think the more they freak out about bots the more ppl on Twitter pretend to be Russian. Watch out I am a bot and I might try to change your mind. #LiberalismIsAMentalDisorder #WalkAway #TrumpDerangementSyndrome https://t.co/qdrnllLx9O"
+      },
+      {
+        "conversation_id": "1019180372855345153",
+        "created_at": "2018-07-17T15:38:21.000Z",
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "1019207903818010624"
+          }
+        ],
+        "id": "1019244926599647232",
+        "edit_history_tweet_ids": [
+          "1019244926599647232"
+        ],
+        "author_id": "81957315",
+        "text": "@ryanlieber75 @BreitbartNews I didn't know you could see this stuff. I wanted Breitbart readers to see this. Blech.",
+        "in_reply_to_user_id": "33791270"
+      },
+      {
+        "context_annotations": [
+          {
+            "domain": {
+              "id": "3",
+              "name": "TV Shows",
+              "description": "Television shows from around the world"
+            },
+            "entity": {
+              "id": "10000607734",
+              "name": "NBA Basketball",
+              "description": "All the latest basketball action from the NBA."
+            }
+          },
+          {
+            "domain": {
+              "id": "3",
+              "name": "TV Shows",
+              "description": "Television shows from around the world"
+            },
+            "entity": {
+              "id": "10029190505",
+              "name": "Live: NBA Basketball",
+              "description": "Live coverage from the National Basketball Association, the top basketball league in North America."
+            }
+          },
+          {
+            "domain": {
+              "id": "3",
+              "name": "TV Shows",
+              "description": "Television shows from around the world"
+            },
+            "entity": {
+              "id": "10029304530",
+              "name": "NBA Basketball"
+            }
+          },
+          {
+            "domain": {
+              "id": "26",
+              "name": "Sports League",
+              "description": ""
+            },
+            "entity": {
+              "id": "706083889454813185",
+              "name": "NBA"
+            }
+          },
+          {
+            "domain": {
+              "id": "29",
+              "name": "Events [Entity Service]",
+              "description": "Real world events. "
+            },
+            "entity": {
+              "id": "790580774739193857",
+              "name": "The Warm Up",
+              "description": "The Warm Up"
+            }
+          },
+          {
+            "domain": {
+              "id": "45",
+              "name": "Brand Vertical",
+              "description": "Top level entities that describe a Brands industry"
+            },
+            "entity": {
+              "id": "781974597310615553",
+              "name": "Entertainment"
+            }
+          },
+          {
+            "domain": {
+              "id": "47",
+              "name": "Brand",
+              "description": "Brands and Companies"
+            },
+            "entity": {
+              "id": "10042758024",
+              "name": "NBA"
+            }
+          }
+        ],
+        "attachments": {
+          "media_keys": [
+            "3_1011618715287343105"
+          ]
+        },
+        "conversation_id": "1011618720240857090",
+        "created_at": "2018-06-26T14:34:32.000Z",
+        "id": "1011618720240857090",
+        "edit_history_tweet_ids": [
+          "1011618720240857090"
+        ],
+        "author_id": "2728231805",
+        "text": "This is absurd @NBA https://t.co/wAEn9kSgdK"
+      },
+      {
+        "conversation_id": "989471640080863232",
+        "created_at": "2018-04-26T14:58:38.000Z",
+        "referenced_tweets": [
+          {
+            "type": "replied_to",
+            "id": "989471640080863232"
+          }
+        ],
+        "id": "989519124702384133",
+        "edit_history_tweet_ids": [
+          "989519124702384133"
+        ],
+        "author_id": "81957315",
+        "text": "@ryanlieber75 BWAAAAAAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHHAHAHA...\n\nAHHHHHHHHHHHHHHAHAHAHAHAHAHAHAHAHAHAHAHA.....\n\nHAHAHAHAHAHAAAAAAAAAAAAHAHAHAHAHAAAA....Ohhhh boy...\n\nWait, not done...\n\nAHHHHHAHAHAHAHAHAHAHAHAHAHAHAAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA\n\n#RyanLieberPredictions2017",
+        "in_reply_to_user_id": "33791270"
+      },
+      {
+        "context_annotations": [
+          {
+            "domain": {
+              "id": "3",
+              "name": "TV Shows",
+              "description": "Television shows from around the world"
+            },
+            "entity": {
+              "id": "10004508226",
+              "name": "PBS NewsHour",
+              "description": "Correspondents report on important news events of the day. Their daily reports are also available online and on radio."
+            }
+          },
+          {
+            "domain": {
+              "id": "3",
+              "name": "TV Shows",
+              "description": "Television shows from around the world"
+            },
+            "entity": {
+              "id": "886663120344686592",
+              "name": "PBS Newshour"
+            }
+          }
+        ],
+        "attachments": {
+          "media_keys": [
+            "3_988840363770220544"
+          ]
+        },
+        "conversation_id": "988840758722613248",
+        "created_at": "2018-04-24T18:03:03.000Z",
+        "id": "988840758722613248",
+        "edit_history_tweet_ids": [
+          "988840758722613248"
+        ],
+        "author_id": "14437914",
+        "text": "The new @PBS @NewsHour website, produced in partnership with @Upstatement, is the recipient of a People's Voice Award from @TheWebbyAwards in the Website: News &amp; Politics category. Thanks to everyone who voted! https://t.co/maD8SXux9J"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "3_939636703958061058"
+          ]
+        },
+        "conversation_id": "939636709221912577",
+        "created_at": "2017-12-09T23:23:43.000Z",
+        "id": "939636709221912577",
+        "edit_history_tweet_ids": [
+          "939636709221912577"
+        ],
+        "author_id": "81957315",
+        "text": "Tomorrow has a high of 34, low of 35. Seems strange... https://t.co/tbP1zKuVIm"
+      },
+      {
+        "conversation_id": "938263713391529984",
+        "created_at": "2017-12-06T04:27:56.000Z",
+        "referenced_tweets": [
+          {
+            "type": "quoted",
+            "id": "938189276763877377"
+          }
+        ],
+        "id": "938263713391529984",
+        "edit_history_tweet_ids": [
+          "938263713391529984"
+        ],
+        "author_id": "16193222",
+        "text": "Good guy with a gun... https://t.co/jnoOIWIjkz"
+      },
+      {
+        "conversation_id": "930118526710493185",
+        "created_at": "2017-11-13T17:01:52.000Z",
+        "id": "930118526710493185",
+        "edit_history_tweet_ids": [
+          "930118526710493185"
+        ],
+        "author_id": "14801455",
+        "text": "How does your design studio make money?"
+      },
+      {
+        "context_annotations": [
+          {
+            "domain": {
+              "id": "10",
+              "name": "Person",
+              "description": "Named people in the world like Nelson Mandela"
+            },
+            "entity": {
+              "id": "788447816561467392",
+              "name": "LeBron James",
+              "description": "LeBron James"
+            }
+          },
+          {
+            "domain": {
+              "id": "11",
+              "name": "Sport",
+              "description": "Types of sports, like soccer and basketball"
+            },
+            "entity": {
+              "id": "706083902411055104",
+              "name": "Basketball"
+            }
+          },
+          {
+            "domain": {
+              "id": "60",
+              "name": "Athlete",
+              "description": "An athlete in the world, like Serena Williams or Lionel Messi"
+            },
+            "entity": {
+              "id": "788447816561467392",
+              "name": "LeBron James",
+              "description": "LeBron James"
+            }
+          }
+        ],
+        "conversation_id": "895299178024370176",
+        "created_at": "2017-08-09T15:02:12.000Z",
+        "id": "895299178024370176",
+        "edit_history_tweet_ids": [
+          "895299178024370176"
+        ],
+        "author_id": "23083404",
+        "text": "Man I need some run!! Where y'all hooping at?? Off season please hurry up and end, I have basketball Jones!!"
+      },
+      {
+        "context_annotations": [
+          {
+            "domain": {
+              "id": "38",
+              "name": "Political Race",
+              "description": ""
+            },
+            "entity": {
+              "id": "10037066629",
+              "name": "2016 US Elections",
+              "description": "2016 US Elections"
+            }
+          }
+        ],
+        "conversation_id": "745844777875275776",
+        "created_at": "2016-06-23T05:03:46.000Z",
+        "id": "745844777875275776",
+        "edit_history_tweet_ids": [
+          "745844777875275776"
+        ],
+        "author_id": "2800581040",
+        "text": "When Democrats pull an idiotic stunt like the House sit-in and liberals congratulate themselves on their virtue, I think...Trump could win."
+      }
+    ]
+  },
+  "errors": [
+    {
+      "value": "1426334356226732033",
+      "detail": "Could not find tweet with referenced_tweets.id: [1426334356226732033].",
+      "title": "Not Found Error",
+      "resource_type": "tweet",
+      "parameter": "referenced_tweets.id",
+      "resource_id": "1426334356226732033",
+      "type": "https://api.twitter.com/2/problems/resource-not-found"
+    },
+    {
+      "value": "1153486171009245184",
+      "detail": "Could not find user with in_reply_to_user_id: [1153486171009245184].",
+      "title": "Not Found Error",
+      "resource_type": "user",
+      "parameter": "in_reply_to_user_id",
+      "resource_id": "1153486171009245184",
+      "type": "https://api.twitter.com/2/problems/resource-not-found"
+    },
+    {
+      "resource_id": "1364220580044578819",
+      "parameter": "referenced_tweets.id",
+      "resource_type": "tweet",
+      "section": "includes",
+      "title": "Authorization Error",
+      "value": "1364220580044578819",
+      "detail": "Sorry, you are not authorized to see the Tweet with referenced_tweets.id: [1364220580044578819].",
+      "type": "https://api.twitter.com/2/problems/not-authorized-for-resource"
+    },
+    {
+      "value": "988183998412349441",
+      "detail": "Could not find tweet with referenced_tweets.id: [988183998412349441].",
+      "title": "Not Found Error",
+      "resource_type": "tweet",
+      "parameter": "referenced_tweets.id",
+      "resource_id": "988183998412349441",
+      "type": "https://api.twitter.com/2/problems/resource-not-found"
+    },
+    {
+      "value": "887910043898740736",
+      "detail": "Could not find tweet with referenced_tweets.id: [887910043898740736].",
+      "title": "Not Found Error",
+      "resource_type": "tweet",
+      "parameter": "referenced_tweets.id",
+      "resource_id": "887910043898740736",
+      "type": "https://api.twitter.com/2/problems/resource-not-found"
+    }
+  ],
+  "meta": {
+    "result_count": 88,
+    "next_token": "7140dibdnow9c7btw3z21anr6edakypc0tvjkhm3cl8vt",
+    "previous_token": "77qpymm88g5h9vqkluxbka94g4hfbkoht3uizwgn5lj5h"
+  }
+}
