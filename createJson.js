@@ -38,7 +38,7 @@ const createJson = (json, pageNum) => {
 
       const returnVal = getMedia(media_key, mediaArr, mediaLen);
 
-      if (typeof returnVal === "bool") {
+      if (typeof returnVal === "boolean") {
         // this means it is a video, so just set video to true
         newObj.video = true;
       }
@@ -107,7 +107,7 @@ const createJson = (json, pageNum) => {
 
               const mediaResp = getMedia(referenced_media_key, mediaArr, mediaLen);
 
-              if (typeof mediaResp === "bool") {
+              if (typeof mediaResp === "boolean") {
                 // this means it is a video, so just set video to true
                 quoted_tweet_data.video = true;
               }
@@ -170,7 +170,7 @@ const createJson = (json, pageNum) => {
 
                 const mediaResp = getMedia(referenced_media_key, mediaArr, mediaLen);
 
-                if (typeof mediaResp === "bool") {
+                if (typeof mediaResp === "boolean") {
                   // this means it is a video, so just set video to true
                   quoted_tweet_data.video = true;
                 }
@@ -350,7 +350,7 @@ const handleThreadRecursive = (subjectTweet, tweetsArr, threadTweetIdArr, mediaA
           
                 const returnVal = getMedia(media_key, mediaArr, mediaLen);
           
-                if (typeof returnVal === "bool") {
+                if (typeof returnVal === "boolean") {
                   // this means it is a video, so just set video to true
                   threadObj.video = true;
                 }
@@ -400,7 +400,7 @@ const handleThreadRecursive = (subjectTweet, tweetsArr, threadTweetIdArr, mediaA
   
         const returnVal = getMedia(media_key, mediaArr, mediaLen);
   
-        if (typeof returnVal === "bool") {
+        if (typeof returnVal === "boolean") {
           // this means it is a video, so just set video to true
           threadObj.video = true;
         }
