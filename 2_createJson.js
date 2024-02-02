@@ -1,3 +1,16 @@
+/*
+*
+*
+* *** Step 2: Create useable JSON for app
+*
+* ***  KNOWN BUGS  ***
+* 
+* 1. If a thread's first tweet comes after the rest of them in the data array, it will correctly add the thread, but it will also add the "first tweet" as its own entry without a thread
+*    To fix, at the end, simply go through the array again, removing any duplicate top-level conversation_id entries that have thread = false
+*
+*/
+
+
 const fs = require("fs");
 
 const createJson = (json, pageNum) => {
@@ -43,7 +56,14 @@ const createJson = (json, pageNum) => {
         newObj.video = true;
       }
       else if (typeof returnVal === "undefined" || typeof returnVal === "null") {
-        newObj.media_key = media_key;
+        // this means the media is not in the tweetsArr, meaning I didn't "like" the original tweet being responded to
+        // so i'm simply adding the media_key for now to come back to it later
+        if (newObj.media_keys && newObj.media_keys.length) {
+          newObj.media_keys.push(media_key);
+        }
+        else {
+          newObj.media_keys = [media_key];
+        }
       }
       else {
         // return value should be object
@@ -59,18 +79,13 @@ const createJson = (json, pageNum) => {
     const returnArr = getUser(author_id, usersArr, userLen);
 
     newObj.user = returnArr[0];
-    newObj.tweet_url = `https://twitter.com/${returnArr[1]}/status/${dataArr[i].id}`;
+    newObj.tweet_url = returnArr[1] === "" ? "" : `https://twitter.com/${returnArr[1]}/status/${dataArr[i].id}`;
 
     // Step 3: Get quoted data
     const referencedTweetsLen = dataArr[i].referenced_tweets ? dataArr[i].referenced_tweets.length : 0;
+
     newObj.quoted = false; // initiate it to false
-    newObj.quoted_tweet_data = {};
-    newObj.quoted_tweet_data.quoted_tweet_user = {};
-
     newObj.reply = false;
-    newObj.in_reply_to_data = {};
-    newObj.in_reply_to_data.reply_to_user = {};
-
     newObj.thread = false; // initiate it to false
     // newObj.thread_arr = [];
 
@@ -92,7 +107,7 @@ const createJson = (json, pageNum) => {
 
             const responseArr2 = getUser(quotedAuthorId, usersArr, userLen);
             quoted_tweet_data.quoted_tweet_user = responseArr2[0];
-            quoted_tweet_data.quoted_tweet_url = `https://twitter.com/${responseArr2[1]}/status/${referenced_tweet_id}`;
+            quoted_tweet_data.quoted_tweet_url == responseArr2[1] === "" ? "" : `https://twitter.com/${responseArr2[1]}/status/${referenced_tweet_id}`;
 
 
             quoted_tweet_data.quoted_tweet_image_urls = [];
@@ -112,7 +127,12 @@ const createJson = (json, pageNum) => {
                 quoted_tweet_data.video = true;
               }
               else if (typeof mediaResp === "undefined" || typeof mediaResp === "null") {
-                quoted_tweet_data.media_key = referenced_media_key;
+                if (quoted_tweet_data.media_keys && quoted_tweet_data.media_keys.length) {
+                  quoted_tweet_data.media_keys.push(referenced_media_key);
+                }
+                else {
+                  quoted_tweet_data.media_keys = [referenced_media_key];
+                }
               }
               else {
                 // return value should be object
@@ -135,7 +155,6 @@ const createJson = (json, pageNum) => {
       else if (dataArr[i].referenced_tweets[k].type === "replied_to") {
         // Figure out if it's a thread, or a reply to a different user
         const thread = dataArr[i].in_reply_to_user_id === dataArr[i].author_id ? true : false;
-        let quoted_tweet_data = {};
 
         // This means it's a reply to a different user, so we need to get that user's info
         if (!thread) {
@@ -151,14 +170,13 @@ const createJson = (json, pageNum) => {
               in_reply_to_data = getTweetData(tweetsArr[l]);
 
               // To get the in_reply_to_data, get the quoted authorId
-              const quotedAuthorId = tweetsArr[l].author_id;
+              const inReplyToAuthorId = tweetsArr[l].author_id;
 
-              const responseArr3 = getUser(quotedAuthorId, usersArr, userLen);
-              in_reply_to_data.quoted_tweet_user = responseArr3[0];
-              in_reply_to_data.quoted_tweet_url = `https://twitter.com/${responseArr3[1]}/status/${referenced_tweet_id}`;
+              const responseArr3 = getUser(inReplyToAuthorId, usersArr, userLen);
+              in_reply_to_data.in_reply_to_user = responseArr3[0];
+              in_reply_to_data.in_reply_to_tweet_url == responseArr3[1] === "" ? "" : `https://twitter.com/${responseArr3[1]}/status/${referenced_tweet_id}`;
               
-
-              newObj.in_reply_to_data.in_reply_to_image_urls = [];
+              in_reply_to_data.image_urls = [];
 
               // To get the media data, get the media key array
               const referenced_media_keys = tweetsArr[l].attachments && tweetsArr[l].attachments.media_keys ? tweetsArr[l].attachments.media_keys : [];
@@ -172,24 +190,30 @@ const createJson = (json, pageNum) => {
 
                 if (typeof mediaResp === "boolean") {
                   // this means it is a video, so just set video to true
-                  quoted_tweet_data.video = true;
+                  in_reply_to_data.video = true;
                 }
                 else if (typeof mediaResp === "undefined" || typeof mediaResp === "null") {
-                  quoted_tweet_data.media_key = referenced_media_key;
+                  if (in_reply_to_data.media_keys && in_reply_to_data.media_keys.length) {
+                    in_reply_to_data.media_keys.push(referenced_media_key);
+                  }
+                  else {
+                    in_reply_to_data.media_keys = [referenced_media_key];
+                  }
                 }
                 else {
                   // return value should be object
-                  if (!quoted_tweet_data.image_urls) {
-                    quoted_tweet_data.image_urls = [];
+                  if (!in_reply_to_data.image_urls) {
+                    in_reply_to_data.image_urls = [];
                   }
-                  quoted_tweet_data.image_urls.push(mediaResp);
+                  in_reply_to_data.image_urls.push(mediaResp);
                 }
                 
               }
-
+              l = tweetsLen;
             }
 
           }
+          newObj.in_reply_to_data = in_reply_to_data;
 
         }
 
@@ -224,11 +248,11 @@ const createJson = (json, pageNum) => {
 
           let threadArr;
           if (newConversationId) {
-            newObj.thread_arr = handleThreadRecursive(dataArr[i], tweetsArr, threadTweetIdArr, mediaArr, mediaLen);
+            newObj.thread_arr = handleThreadRecursive(dataArr[i], tweetsArr, threadTweetIdArr, mediaArr, mediaLen, usersArr, userLen);
           }
 
           else {
-            let responseArr = handleThreadRecursive(dataArr[i], tweetsArr, threadTweetIdArr, mediaArr, mediaLen);
+            let responseArr = handleThreadRecursive(dataArr[i], tweetsArr, threadTweetIdArr, mediaArr, mediaLen, usersArr, userLen);
             newArr[conversationIndex].thread_arr = newArr[conversationIndex].thread_arr.concat(responseArr);
             pushNew = false;
           }
@@ -245,7 +269,7 @@ const createJson = (json, pageNum) => {
   }
   
   const updatedData = JSON.stringify(newArr, null, 2);
-  fs.writeFileSync(`./updated_tweets/tweets_${pageNum}.json`, updatedData, { flag: "wx" }, (err) => {
+  fs.writeFileSync(`./updated_tweets_with_reply_data_2/tweets_${pageNum}.json`, updatedData, { flag: "wx" }, (err) => {
     if (err) {
       console.log("error : ", err);
     }
@@ -301,7 +325,7 @@ const getMedia = (mediaKey, mediaArr, mediaLen) => {
 }
 
 
-const handleThreadRecursive = (subjectTweet, tweetsArr, threadTweetIdArr, mediaArr, mediaLen) => {
+const handleThreadRecursive = (subjectTweet, tweetsArr, threadTweetIdArr, mediaArr, mediaLen, usersArr, userLen) => {
 
   // Step 1: Find reference tweet
   // Step 2: Recursively find tweets until you hit the "first tweet" OR the tweet_id of a tweet already in the threadArr
@@ -336,7 +360,7 @@ const handleThreadRecursive = (subjectTweet, tweetsArr, threadTweetIdArr, mediaA
           // Find the referenced_tweet in the tweetArr
           if (tweetsArr[u].id === referenced_tweet_id) {
 
-            arr = handleThreadRecursive(tweetsArr[u], tweetsArr, threadTweetIdArr, mediaArr, mediaLen);
+            arr = handleThreadRecursive(tweetsArr[u], tweetsArr, threadTweetIdArr, mediaArr, mediaLen, usersArr, userLen);
             const returnObj = getTweetData(subjectTweet);
             Object.assign(threadObj, returnObj);
 
@@ -355,7 +379,12 @@ const handleThreadRecursive = (subjectTweet, tweetsArr, threadTweetIdArr, mediaA
                   threadObj.video = true;
                 }
                 else if (typeof returnVal === "undefined" || typeof returnVal === "null") {
-                  threadObj.media_key = media_key;
+                  if (threadObj.media_keys && threadObj.media_keys.length) {
+                    threadObj.media_keys.push(media_key);
+                  }
+                  else {
+                    threadObj.media_keys = [media_key]
+                  }
                 }
                 else {
                   // return value should be object
@@ -374,6 +403,102 @@ const handleThreadRecursive = (subjectTweet, tweetsArr, threadTweetIdArr, mediaA
       }
       else if (subjectTweet.referenced_tweets[t].type === "quoted" && keepGoing) {
         threadObj.quoted = true;
+
+        for (let u = 0; u < tweetsArrLen; u++) {
+
+          // Find the referenced_tweet in the tweetArr
+          if (tweetsArr[u].id === referenced_tweet_id) {
+
+            arr = handleThreadRecursive(tweetsArr[u], tweetsArr, threadTweetIdArr, mediaArr, mediaLen, usersArr, userLen);
+            const returnObj = getTweetData(subjectTweet);
+            Object.assign(threadObj, returnObj);
+
+            // get quoted tweet data
+            const returnObj2 = getTweetData(tweetsArr[u]);
+            threadObj.quoted_tweet_data = returnObj2;
+
+            // get quoted user data
+            const quotedUserArr = getUser(tweetsArr[u].author_id, usersArr, userLen);
+            const quoted_user_obj = quotedUserArr[0];
+            threadObj.quoted_tweet_data.quoted_tweet_user = quoted_user_obj;
+            threadObj.quoted_tweet_data.tweet_url = quotedUserArr[1] === "" ? "" : `https://twitter.com/${quotedUserArr[1]}/status/${referenced_tweet_id}`;
+
+            // get quoted tweet media
+            if (tweetsArr[u].attachments && tweetsArr[u].attachments.media_keys) {
+              threadObj.quoted_tweet_data.image_urls = [];
+              const mediaKeysLen = tweetsArr[u].attachments.media_keys.length;
+            
+              for (let n = 0; n < mediaKeysLen; n++) {
+      
+                const media_key = tweetsArr[u].attachments.media_keys[n];
+          
+                const returnVal = getMedia(media_key, mediaArr, mediaLen);
+          
+                if (typeof returnVal === "boolean") {
+                  // this means it is a video, so just set video to true
+                  threadObj.quoted_tweet_data.video = true;
+                }
+                else if (typeof returnVal === "undefined" || typeof returnVal === "null") {
+                  if (threadObj.quoted_tweet_data.media_keys && threadObj.quoted_tweet_data.media_keys.length) {
+                    threadObj.quoted_tweet_data.media_keys.push(media_key);
+                  }
+                  else {
+                    threadObj.quoted_tweet_data.media_keys = [media_key]
+                  }
+                }
+                else {
+                  // return value should be object
+                  threadObj.quoted_tweet_data.image_urls.push(returnVal);
+                }
+                
+              }
+    
+            }
+
+
+            // get subject tweet data
+            if (subjectTweet.attachments && subjectTweet.attachments.media_keys) {
+              threadObj.image_urls = [];
+              const mediaKeysLen = subjectTweet.attachments.media_keys.length;
+            
+              for (let n = 0; n < mediaKeysLen; n++) {
+      
+                const media_key = subjectTweet.attachments.media_keys[n];
+          
+                const returnVal = getMedia(media_key, mediaArr, mediaLen);
+          
+                if (typeof returnVal === "boolean") {
+                  // this means it is a video, so just set video to true
+                  threadObj.video = true;
+                }
+                else if (typeof returnVal === "undefined" || typeof returnVal === "null") {
+                  if (threadObj.media_keys && threadObj.media_keys.length) {
+                    threadObj.media_keys.push(media_key);
+                  }
+                  else {
+                    threadObj.media_keys = [media_key]
+                  }
+                }
+                else {
+                  // return value should be object
+                  threadObj.image_urls.push(returnVal);
+                }
+                
+              }
+    
+            }
+
+
+
+
+          }
+        }
+
+
+
+
+
+
       }
     }
     if (Object.keys(threadObj).length > 0) {
@@ -405,7 +530,12 @@ const handleThreadRecursive = (subjectTweet, tweetsArr, threadTweetIdArr, mediaA
           threadObj.video = true;
         }
         else if (typeof returnVal === "undefined" || typeof returnVal === "null") {
-          threadObj.media_key = media_key;
+          if (threadObj.media_keys && threadObj.media_keys.length) {
+            threadObj.media_keys.push(media_key);
+          }
+          else {
+            threadObj.media_keys = [media_key];
+          }
         }
         else {
           // return value should be object
@@ -421,7 +551,7 @@ const handleThreadRecursive = (subjectTweet, tweetsArr, threadTweetIdArr, mediaA
 }
 
 
-let pageNum = 0;
+let pageNum = 5;
 
 while (pageNum < 47) {
   const data = fs.readFileSync(`./tweets/tweets${pageNum}.json`);
@@ -430,13 +560,3 @@ while (pageNum < 47) {
   console.log(`${pageNum} done`);
   pageNum++;
 }
-
-
-/*
-*
-* ***  KNOWN BUGS  ***
-* 
-* 1. If a thread's first tweet comes after the rest of them in the data array, it will correctly add the thread, but it will also add the "first tweet" as its own entry without a thread
-*    To fix, at the end, simply go through the array again, removing any duplicate top-level conversation_id entries that have thread = false
-*
-*/

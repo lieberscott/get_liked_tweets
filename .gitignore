@@ -1,4 +1,7 @@
 updated_tweets
 node_modules
 .env
-updated_tweets2
+updated_tweets2*
+updated_tweets_with_videoHTML*
+updated_tweets_with_reply_data*
+updated_tweets_combined*
