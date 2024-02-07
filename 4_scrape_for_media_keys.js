@@ -7,7 +7,7 @@
 */
 
 
-const { chromium } = require('playwright');
+const { firefox } = require('playwright');
 const fs = require("fs");
 
 const scrape_website = async () => {
@@ -29,7 +29,8 @@ const scrape_website = async () => {
 
       // const newJson = {...json[i]};
       const newJson = {};
-      let htmlContent = "";
+      let htmlContentVideo = "";
+      let htmlContentCode = "";
 
       if (true) {
 
@@ -37,10 +38,14 @@ const scrape_website = async () => {
 
         // console.log(url);
 
-        const url_vid = "https://publish.twitter.com/?query=https%3A%2F%2Ftwitter.com%2FJakeWSimons%2Fstatus%2F1750452284356546631&widget=Video";
-        const url_img = "https://publish.twitter.com/?query=https%3A%2F%2Ftwitter.com%2FUN_Women%2Fstatus%2F1750277355736547830&widget=Video";
+        // const url_vid = "https://publish.twitter.com/?query=https%3A%2F%2Ftwitter.com%2FJakeWSimons%2Fstatus%2F1750452284356546631&widget=Video";
+        // const url_vid = "https://twitter.com/JakeWSimons/status/1750452284356546631";
+        // const url_vid = "https://twitter.com/IsraelMatzav/status/1750386570350461049";
+        const url_vid = "https://publish.twitter.com/?query=https%3A%2F%2Ftwitter.com%2FIsraelMatzav%2Fstatus%2F1750386570350461049&widget=Video"
+        // const url_img = "https://publish.twitter.com/?query=https%3A%2F%2Ftwitter.com%2FNoaMagid%2Fstatus%2F1754832190217519442&widget=Video";
+        const url_img = "https://publish.twitter.com/?query=https%3A%2F%2Ftwitter.com%2FMarinaMedvin%2Fstatus%2F1748794048582766941&widget=Video";
 
-        htmlContent = await getMedia(url_img);
+        [htmlContentVideo, htmlContentCode] = await getMedia(url_img);
 
         /*
         * Sample response:
@@ -56,12 +61,18 @@ const scrape_website = async () => {
         *
         */
         
-        if (htmlContent !== "") {
-          htmlContent = cleanUpHtml(htmlContent);
-          console.log(`New video for tweets_${pageNum}, item ${i}`);
+        if (htmlContentVideo !== "") {
+          htmlContentVideo = cleanUpHtml(htmlContentVideo);
         }
 
-        console.log("htmlContent : ", htmlContent);
+        console.log("htmlContentVideo : ", htmlContentVideo);
+
+        if (htmlContentCode !== "") {
+          htmlContentCode = cleanUpHtml(htmlContentCode);
+        }
+
+        console.log("htmlContentCode : ", htmlContentCode);
+
         return;
 
         newJson.video_html = htmlContent;
@@ -173,63 +184,135 @@ const cleanUpHtml = (html) => {
 }
 
 
+const checkForVideoHtml = (html) => {
+
+  const regex = /<video.*<\/video>/;
+
+  const videoArr = html.match(regex);
+
+  return videoArr;
+}
+
+const checkForImgHtml = (html) => {
+
+  const regex = /<img.*">/g;
+
+  const imgArr = html.match(regex);
+
+  return imgArr;
+}
+
+
 const getMedia = async (url) => {
 
-  let htmlContent = "";
+  let htmlContentVideo = "";
+  let htmlContentCode = "";
+
+  const selector_code = 'code';
+  const selector_video = `.twitter-tweet`;
+
+
   // Launch a headless browser
-  // console.log("Part 1: Launch headless browser")
-  const browser = await chromium.launch();
-  
+  const browser = await firefox.launch();
+
+  // Create a new page
+  const context = await browser.newContext();
+  const page = await context.newPage();
+
+  // First get video content
   try {
-    
-    // Create a new page
-    // console.log("Part 2: Create a new page")
-    const page = await browser.newPage();
 
     // Navigate to the website
-    // console.log("Part 3: Navigate to the website");
     await page.goto(url);
 
-    // Wait for the <code> element to be present in the DOM
-    // console.log("Part 4: Wait for the selector to load");
+    console.log("wait for frame");
 
-    // &lt;blockquote class="twitter-tweet" data-media-max-width="560"&gt;&lt;p lang="en" dir="ltr"&gt;Is this real? October 7 Shawarma restaurant… Shall we talk about Jew-hatred in the Arab world now maybe? &lt;a href="https://t.co/KwnjFvgq5K"&gt;pic.twitter.com/KwnjFvgq5K&lt;/a&gt;&lt;/p&gt;&amp;mdash; Jake Wallis Simons (@JakeWSimons) &lt;a href="https://twitter.com/JakeWSimons/status/1750452284356546631?ref_src=twsrc%5Etfw"&gt;January 25, 2024&lt;/a&gt;&lt;/blockquote&gt;
-    // <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">Women and girls in <a href="https://twitter.com/hashtag/Gaza?src=hash&amp;ref_src=twsrc%5Etfw">#Gaza</a> are deprived of safety, medicine, health care, and shelter.<br><br>They are deprived of hope and justice.<br><br>They face imminent starvation.<br><br>We call for an immediate humanitarian ceasefire and unhindered humanitarian access for Gaza.<a href="https://t.co/84dqctE9mV">https://t.co/84dqctE9mV</a> <a href="https://t.co/v7R0eG19fT">pic.twitter.com/v7R0eG19fT</a></p>&mdash; UN Women (@UN_Women) <a href="https://twitter.com/UN_Women/status/1750277355736547830?ref_src=twsrc%5Etfw">January 24, 2024</a></blockquote>
-    // <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">Nada Hammouda, a PhD student at UT Southwestern Medical Center, posted on LinkedIn, “Zionism is a war on children: Child sex and organ trafficking for sadistic, pedophiliac pleasure as well as profit.” <a href="https://twitter.com/UTSWNews?ref_src=twsrc%5Etfw">@UTSWNews</a> <a href="https://t.co/mpw894yf18">https://t.co/mpw894yf18</a> <a href="https://t.co/LlTwl42bcC">pic.twitter.com/LlTwl42bcC</a></p>&mdash; Canary Mission (@canarymission) <a href="https://twitter.com/canarymission/status/1750284845488767348?ref_src=twsrc%5Etfw">January 24, 2024</a></blockquote> 
+    await page.waitForSelector(".twitter-tweet-rendered");
 
+    const frame = page.mainFrame();
 
-    const selector = 'code';
-    await page.waitForSelector(selector, { timeout: 10000 }, (e) => {
-      if (e) {
-        console.log(`error for url ${url} : `, e);
-      }
-    });
+    console.log("found main frame");
 
-    // Use the $ function to select the first matching <code> element
-    const codeElementHandle = await page.$(selector);
+    const childFrames = frame.childFrames();
 
-    if (codeElementHandle) {
-      // Extract text content or other properties from the <code> element
-      htmlContent = await codeElementHandle.textContent();
-    } else {
-      console.error(`No <code> element found`);
-    }
+    console.log("child frames len : ", childFrames.length);
+
+    const childFramesContent = await childFrames[1].content();
+
+    const imgArr = checkForImgHtml(childFramesContent);
+
+    console.log("imgArr[1] : ", imgArr[1]);
+
+    /*
+    console.log("wait for video selector ...");
+    await page.waitForSelector(selector_video, { timeout: 10000 });
+    console.log("found video selector");
+
+    const codeElementHandleVideo = await page.$(selector_video, { timeout: 10000});
+    
+    htmlContentVideo = await codeElementHandleVideo.innerHTML();
+    console.log("innerHTML : ", htmlContentVideo);
+    */
+
+    // Use the $ function to select the first matching <video> element
+    // const codeElementHandleVideo = await page.$("#twitter-widget-0");
+
+    // console.log("codeElementHandleVideo : ", codeElementHandleVideo);
+
+    // if (codeElementHandleVideo) {
+    //   // Extract text content or other properties from the <video> element
+    //   htmlContentVideo = await codeElementHandleVideo.textContent();
+    //   console.log("htmlContentVideo1 : ", htmlContentVideo);
+    // } else {
+    //   console.error(`No <video> element found`);
+    // }
 
   }
   catch (err) {
     if (err.name === 'TimeoutError') {
-      console.error(`Timeout reached while waiting for the [alt="Image] element for video`);
+      console.error(`Timeout reached while waiting for the video element for url ${url}`);
     } else {
       console.error('Error:', err);
     }
     htmlContent = "";
   }
+
+
+  // next do selector code
+  // try {
+
+  //   console.log("wait for code selector ...");
+
+  //   await page.waitForSelector(selector_code, { timeout: 10000 });
+
+  //   console.log("found code selector");
+
+  //   // Use the $ function to select the first matching <code> element
+  //   const codeElementHandle = await page.$(selector_code);
+
+  //   if (codeElementHandle) {
+  //     // Extract text content or other properties from the <code> element
+  //     htmlContentCode = await codeElementHandle.textContent();
+  //   } else {
+  //     console.error(`No <code> element found`);
+  //   }
+
+  // }
+  // catch (err) {
+  //   if (err.name === 'TimeoutError') {
+  //     console.error(`Timeout reached while waiting for the code element for url ${url}`);
+  //   } else {
+  //     console.error('Error:', err);
+  //   }
+  //   htmlContent = "";
+  // }
+
   finally {
     // Close the browser
     await browser.close();
   }
 
-  return htmlContent;
+  return [htmlContentVideo, htmlContentCode];
 }
 
 // Example usage

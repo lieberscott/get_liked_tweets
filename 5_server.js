@@ -1,3 +1,14 @@
+/*
+*
+* CATEGORIZE TWEETS
+*
+* Must copy the updated_tweets_combined folder (file by file) into the following Glitch project: (https://glitch.com/edit/#!/israel-public-tweets-page?path=tweets_%2Ftweets_46.json%3A11%3A61)
+*
+* You can then use that Glitch project to categorize the tweets
+*
+*
+*/
+
 const express = require('express');
 const cors = require("cors");
 
@@ -31,9 +42,20 @@ app.post("/categorize", (req, res) => {
   const str = JSON.stringify(tweetData, null, 2);
   
   
-  fs.appendFile(`./categorized_tweets/${category}.json`, str, (err) => {
+  fs.appendFile(`./5_categorized_tweets_by_page_num/${category}.json`, str, (err) => {
     if (err) {
-      console.log("error : ", err);
+      console.log("by_page_num error : ", err);
+      return res.json({ ok: false })
+    }
+    else {
+      console.log("success");
+    }
+  })
+
+
+  fs.appendFile(`./5_categorized_tweets_by_category/${category}.json`, str, (err) => {
+    if (err) {
+      console.log("by_category error : ", err);
       return res.json({ ok: false })
     }
     else {
@@ -41,6 +63,7 @@ app.post("/categorize", (req, res) => {
       return res.json({ ok: true });
     }
   })
+
 })
 
 
