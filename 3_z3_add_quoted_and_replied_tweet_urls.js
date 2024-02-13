@@ -20,12 +20,12 @@ const add_urls = async (pageNum) => {
   for (let i = 0; i < len; i++) {
     const newObj = {...json[i]}
     if (newObj.reply) {
-      const tweet_url = newObj.in_reply_to_data && newObj.in_reply_to_data.in_reply_to_user ? `https://twitter.com/${newObj.in_reply_to_data.in_reply_to_user.screen_name}/status/${newObj.in_reply_to_data.id}` : "";
+      const tweet_url = newObj.in_reply_to_data && newObj.in_reply_to_data.user ? `https://twitter.com/${newObj.in_reply_to_data.user.screen_name}/status/${newObj.in_reply_to_data.id}` : "";
       newObj.in_reply_to_data.tweet_url = tweet_url;
     }
 
     if (newObj.quoted) {
-      const tweet_url = newObj.quoted_tweet_data && newObj.quoted_tweet_data.quoted_tweet_user ? `https://twitter.com/${newObj.quoted_tweet_data.quoted_tweet_user.screen_name}/status/${newObj.quoted_tweet_data.id}` : "";
+      const tweet_url = newObj.quoted_tweet_data && newObj.quoted_tweet_data.user ? `https://twitter.com/${newObj.quoted_tweet_data.user.screen_name}/status/${newObj.quoted_tweet_data.id}` : "";
       newObj.quoted_tweet_data.tweet_url = tweet_url;
     }
 

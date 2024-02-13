@@ -39,7 +39,7 @@ const scrape_website = async () => {
       if (newJson.reply && newJson.in_reply_to_data && newJson.in_reply_to_data.video) {
         let replyHTML = "";
 
-        const sn = newJson.in_reply_to_data.in_reply_to_user.screen_name;
+        const sn = newJson.in_reply_to_data.user.screen_name;
         const tw_id = newJson.in_reply_to_data.id;
         
         const url = getUrl(sn, tw_id);

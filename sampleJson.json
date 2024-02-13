@@ -28,7 +28,7 @@
 ✅        "quoted_tweet_conversation_id": 483912048391,
 ✅        "quoted_tweet_text": "Through the Twitter Developer Labs program, we'll soon start previewing new versions of GET /weets and GET /users",
 ✅        "quoted_tweet_tweet_url": "https://t.co/9i4c5bUUCu",
-✅        "quoted_tweet_image_urls": [],
+✅        "image_urls": [],
 ✅        "quoted_tweet_video_html": "",
 ✅        "quoted_tweet_user": {
 ✅          "id": 63830204,
@@ -48,7 +48,7 @@
 ✅        "in_reply_to_tweet_url": "https://t.co/9i4c5bUUCu",
 ✅        "in_reply_to_image_urls": [],
         "in_reply_to_video_html": "",
-✅        "in_reply_to_user": {
+✅        "user": {
 ✅          "id": 63830204,
 ✅          "name": "Twitter API",
 ✅          "screen_name": "TwitterAPI",

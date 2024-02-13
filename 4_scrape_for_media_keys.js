@@ -12,40 +12,34 @@ const fs = require("fs");
 
 const scrape_website = async () => {
 
-  let pageNum = 0;
+  let pageNum = 20;
 
-  while (pageNum < 1) {
+  while (pageNum < 47) {
 
+    const data = fs.readFileSync(`./3_z3_add_quoted_and_replied_tweet_urls/tweets_${pageNum}.json`);
+    const json = JSON.parse(data);
+    const len = json.length;
 
-    // let data = fs.readFileSync(`./updated_tweets_combined/tweets_${pageNum}.json`);
-    // const json = JSON.parse(data);
+    let newArr = [];
 
-    // const len = json.length;
-    const len = 1;
-    let i = 0;
+    let countVid = 0;
+    let countImg = 0;
+      
     
-    
-    while (i < len) {
+    for (let i = 0; i < len; i++) {
 
-      // const newJson = {...json[i]};
-      const newJson = {};
-      let htmlContentVideo = "";
-      let htmlContentCode = "";
+      const newJson = {...json[i]};
+      let htmlContent = "";
+      let imgArr = [];
 
-      if (true) {
+      let htmlContent2 = "";
+      let imgArr2 = [];
 
-        // const url = getUrl(newJson.user.screen_name, newJson.tweet_id);
+      if (newJson.quoted && newJson.quoted_tweet_data && newJson.quoted_tweet_data.media_keys) {
 
-        // console.log(url);
+        const url = getUrl(newJson.quoted_tweet_data.user.screen_name, newJson.quoted_tweet_data.id);
 
-        // const url_vid = "https://publish.twitter.com/?query=https%3A%2F%2Ftwitter.com%2FJakeWSimons%2Fstatus%2F1750452284356546631&widget=Video";
-        // const url_vid = "https://twitter.com/JakeWSimons/status/1750452284356546631";
-        // const url_vid = "https://twitter.com/IsraelMatzav/status/1750386570350461049";
-        const url_vid = "https://publish.twitter.com/?query=https%3A%2F%2Ftwitter.com%2FIsraelMatzav%2Fstatus%2F1750386570350461049&widget=Video"
-        // const url_img = "https://publish.twitter.com/?query=https%3A%2F%2Ftwitter.com%2FNoaMagid%2Fstatus%2F1754832190217519442&widget=Video";
-        const url_img = "https://publish.twitter.com/?query=https%3A%2F%2Ftwitter.com%2FMarinaMedvin%2Fstatus%2F1748794048582766941&widget=Video";
-
-        [htmlContentVideo, htmlContentCode] = await getMedia(url_img);
+        [htmlContent, imgArr] = await getMedia(url);
 
         /*
         * Sample response:
@@ -61,85 +55,82 @@ const scrape_website = async () => {
         *
         */
         
-        if (htmlContentVideo !== "") {
-          htmlContentVideo = cleanUpHtml(htmlContentVideo);
+        if (htmlContent !== "") {
+          htmlContent = cleanUpHtml(htmlContent);
+          newJson.quoted_tweet_data.video = true;
+          newJson.quoted_tweet_data.video_html = htmlContent;
+          countVid++;
+          console.log(`pageNum ${pageNum} media_key video count: ${countVid}`);
         }
 
-        console.log("htmlContentVideo : ", htmlContentVideo);
-
-        if (htmlContentCode !== "") {
-          htmlContentCode = cleanUpHtml(htmlContentCode);
+        else if (imgArr.length) {
+          newJson.quoted_tweet_data.image_urls = imgArr;
+          delete newJson.quoted_tweet_data.image_urls;
+          countImg++;
+          console.log(`pageNum ${pageNum} media_key image count: ${countImg}`);
         }
-
-        console.log("htmlContentCode : ", htmlContentCode);
-
-        return;
-
-        newJson.video_html = htmlContent;
-
       }
 
-      if (newJson.thread && newJson.thread_arr && newJson.thread_arr.length) {
-        for (let j = 0; j < newJson.thread_arr.length; j++) {
-          let threadHtmlContent = "";
-          if (newJson.thread_arr[j].video) {
+      if (newJson.reply && newJson.in_reply_to_data && newJson.in_reply_to_data.media_keys) {
+
+        const url = getUrl(newJson.in_reply_to_data.user.screen_name, newJson.in_reply_to_data.id);
+
+        [htmlContent2, imgArr2] = await getMedia(url);
+        
+        if (htmlContent2 !== "") {
+          htmlContent2 = cleanUpHtml(htmlContent2);
+          newJson.in_reply_to_data.video = true;
+          newJson.in_reply_to_data.video_html = htmlContent2;
+          countVid++;
+          console.log(`pageNum ${pageNum} media_key video count: ${countVid}`);
+        }
+
+        else if (imgArr2.length) {
+          newJson.in_reply_to_data.image_urls = imgArr2;
+          countImg++;
+          console.log(`pageNum ${pageNum} media_key image count: ${countImg}`);
+        }
+      }
+
+      // I don't think you need to do threads, since threads are liked and should include all media
+      // if (newJson.thread && newJson.thread_arr && newJson.thread_arr.length) {
+      //   for (let j = 0; j < newJson.thread_arr.length; j++) {
+      //     let threadHtmlContent = "";
+      //     if (newJson.thread_arr[j].video) {
             
-            const sn = newJson.user.screen_name;
-            const tw_id = newJson.thread_arr[j].id;
+      //       const sn = newJson.user.screen_name;
+      //       const tw_id = newJson.thread_arr[j].id;
             
-            const url = getUrl(sn, tw_id);
+      //       const url = getUrl(sn, tw_id);
             
-            threadHtmlContent = await getMedia(url);
+      //       threadHtmlContent = await getMedia(url);
             
-            if (threadHtmlContent !== "") {
-              threadHtmlContent = cleanUpHtml(threadHtmlContent);
-              console.log(`Added threadHTMLContent at Json item ${i} and thread item ${j}`);
-            }
+      //       if (threadHtmlContent !== "") {
+      //         threadHtmlContent = cleanUpHtml(threadHtmlContent);
+      //         console.log(`Added threadHTMLContent at Json item ${i} and thread item ${j}`);
+      //       }
             
-            newJson.thread_arr[j].video_html = threadHtmlContent;
+      //       newJson.thread_arr[j].video_html = threadHtmlContent;
           
-          }
-        }
-      }
-
-      if (newJson.reply && newJson.in_reply_to_data && newJson.in_reply_to_data.video) {
-        let replyHTML = "";
-
-        const sn = newJson.in_reply_to_data.in_reply_to_user.screen_name;
-        const tw_id = newJson.in_reply_to_data.id;
-        
-        const url = getUrl(sn, tw_id);
-        
-        replyHTML = await getMedia(url);
-        
-        if (replyHTML !== "") {
-          replyHTML = cleanUpHtml(replyHTML);
-          console.log(`Added replyHTML at Json item ${i}`);
-        }
-        
-        newJson.in_reply_to_data.video_html = replyHTML;
-
-      }
-      
-      const str = JSON.stringify(newJson, null, 2);  
-
-      // Write the Tweet to a file
-      try {
-        fs.appendFileSync(`./updated_tweets2/tweets_${pageNum}.json`, str + ",\n");
-        console.log(`appended`)
-      }
-
-      catch (err) {
-        console.log(`fs error for tweet_${pageNum} and item ${i}`);
-        i = len;
-      }
-
-      i++;
-
+      //     }
+      //   }
+      // }
+    
+      newArr.push(newJson);
     }
 
-    pageNum = pageNum - 1;
-
+    const str = JSON.stringify(newArr, null, 2);
+    
+    fs.writeFileSync(`./4_get_remaining_media_keys/tweets_${pageNum}.json`, str, (err) => {
+      if (err) {
+        console.log("error : ", err);
+      }
+      else {
+        console.log("finished : ", pageNum);
+        return;
+      }
+    })
+    pageNum++;
   }
 
 }
@@ -195,22 +186,25 @@ const checkForVideoHtml = (html) => {
 
 const checkForImgHtml = (html) => {
 
-  const regex = /<img.*">/g;
+  // First, replace all &amp; with just the &
+  const newStr = html.replace(/&amp;/g, "&");
 
-  const imgArr = html.match(regex);
+  const regex = /<img alt="Image"(.*?)"(https:\/\/pbs.twimg(.*?))"/g; // capturing group 2 ($2) is the image_url
+  
+  const urls_arr = [];
 
-  return imgArr;
+  newStr.replace(regex, (match, g1, g2) => urls_arr.push({"type": "photo", "url": g2}));
+
+  return urls_arr;
 }
 
 
 const getMedia = async (url) => {
 
-  let htmlContentVideo = "";
-  let htmlContentCode = "";
+  let htmlContent = "";
+  let imgArr = [];
 
-  const selector_code = 'code';
-  const selector_video = `.twitter-tweet`;
-
+  const selector = 'code';
 
   // Launch a headless browser
   const browser = await firefox.launch();
@@ -224,50 +218,39 @@ const getMedia = async (url) => {
 
     // Navigate to the website
     await page.goto(url);
-
-    console.log("wait for frame");
-
+    
+    // Step 1: Check for video
     await page.waitForSelector(".twitter-tweet-rendered");
 
     const frame = page.mainFrame();
 
-    console.log("found main frame");
-
     const childFrames = frame.childFrames();
-
-    console.log("child frames len : ", childFrames.length);
 
     const childFramesContent = await childFrames[1].content();
 
-    const imgArr = checkForImgHtml(childFramesContent);
+    // First check if it's a video
+    const videoArr = checkForVideoHtml(childFramesContent);
 
-    console.log("imgArr[1] : ", imgArr[1]);
+    if (videoArr && videoArr.length) {
+      // If video, get html from code, and return
+      // Use the $ function to select the first matching <code> element
+      const codeElementHandle = await page.$(selector);
 
-    /*
-    console.log("wait for video selector ...");
-    await page.waitForSelector(selector_video, { timeout: 10000 });
-    console.log("found video selector");
+      if (codeElementHandle) {
+        // Extract text content or other properties from the <code> element
+        htmlContent = await codeElementHandle.textContent();
+      } else {
+        console.error(`No <code> element found`);
+      }
 
-    const codeElementHandleVideo = await page.$(selector_video, { timeout: 10000});
-    
-    htmlContentVideo = await codeElementHandleVideo.innerHTML();
-    console.log("innerHTML : ", htmlContentVideo);
-    */
+    }
 
-    // Use the $ function to select the first matching <video> element
-    // const codeElementHandleVideo = await page.$("#twitter-widget-0");
-
-    // console.log("codeElementHandleVideo : ", codeElementHandleVideo);
-
-    // if (codeElementHandleVideo) {
-    //   // Extract text content or other properties from the <video> element
-    //   htmlContentVideo = await codeElementHandleVideo.textContent();
-    //   console.log("htmlContentVideo1 : ", htmlContentVideo);
-    // } else {
-    //   console.error(`No <video> element found`);
-    // }
-
+    else {
+      // Step 2: If no video, then it is an image. Get images.
+      imgArr = checkForImgHtml(childFramesContent);
+    }
   }
+
   catch (err) {
     if (err.name === 'TimeoutError') {
       console.error(`Timeout reached while waiting for the video element for url ${url}`);
@@ -275,52 +258,22 @@ const getMedia = async (url) => {
       console.error('Error:', err);
     }
     htmlContent = "";
+    imgArr = [];
   }
-
-
-  // next do selector code
-  // try {
-
-  //   console.log("wait for code selector ...");
-
-  //   await page.waitForSelector(selector_code, { timeout: 10000 });
-
-  //   console.log("found code selector");
-
-  //   // Use the $ function to select the first matching <code> element
-  //   const codeElementHandle = await page.$(selector_code);
-
-  //   if (codeElementHandle) {
-  //     // Extract text content or other properties from the <code> element
-  //     htmlContentCode = await codeElementHandle.textContent();
-  //   } else {
-  //     console.error(`No <code> element found`);
-  //   }
-
-  // }
-  // catch (err) {
-  //   if (err.name === 'TimeoutError') {
-  //     console.error(`Timeout reached while waiting for the code element for url ${url}`);
-  //   } else {
-  //     console.error('Error:', err);
-  //   }
-  //   htmlContent = "";
-  // }
 
   finally {
     // Close the browser
     await browser.close();
   }
 
-  return [htmlContentVideo, htmlContentCode];
+  return [htmlContent, imgArr];
 }
 
-// Example usage
-const websiteUrl = 'https://example.com';
-scrape_website(websiteUrl)
-  .then((html) => {
-    console.log("Finished at " + new Date().toLocaleTimeString());
-  })
-  .catch((error) => {
-    console.error('Error:', error);
-  });
+
+scrape_website()
+.then(() => {
+  console.log("Finished at " + new Date().toLocaleTimeString());
+})
+.catch((error) => {
+  console.error('Error:', error);
+});

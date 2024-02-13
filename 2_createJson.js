@@ -106,11 +106,11 @@ const createJson = (json, pageNum) => {
             const quotedAuthorId = tweetsArr[l].author_id;
 
             const responseArr2 = getUser(quotedAuthorId, usersArr, userLen);
-            quoted_tweet_data.quoted_tweet_user = responseArr2[0];
+            quoted_tweet_data.user = responseArr2[0];
             quoted_tweet_data.quoted_tweet_url == responseArr2[1] === "" ? "" : `https://twitter.com/${responseArr2[1]}/status/${referenced_tweet_id}`;
 
 
-            quoted_tweet_data.quoted_tweet_image_urls = [];
+            quoted_tweet_data.image_urls = [];
 
             // To get the media data, get the media key array
             const referenced_media_keys = tweetsArr[l].attachments && tweetsArr[l].attachments.media_keys ? tweetsArr[l].attachments.media_keys : [];
@@ -154,7 +154,7 @@ const createJson = (json, pageNum) => {
       
       else if (dataArr[i].referenced_tweets[k].type === "replied_to") {
         // Figure out if it's a thread, or a reply to a different user
-        const thread = dataArr[i].in_reply_to_user_id === dataArr[i].author_id ? true : false;
+        const thread = dataArr[i].user_id === dataArr[i].author_id ? true : false;
 
         // This means it's a reply to a different user, so we need to get that user's info
         if (!thread) {
@@ -173,7 +173,7 @@ const createJson = (json, pageNum) => {
               const inReplyToAuthorId = tweetsArr[l].author_id;
 
               const responseArr3 = getUser(inReplyToAuthorId, usersArr, userLen);
-              in_reply_to_data.in_reply_to_user = responseArr3[0];
+              in_reply_to_data.user = responseArr3[0];
               in_reply_to_data.in_reply_to_tweet_url == responseArr3[1] === "" ? "" : `https://twitter.com/${responseArr3[1]}/status/${referenced_tweet_id}`;
               
               in_reply_to_data.image_urls = [];
@@ -420,7 +420,7 @@ const handleThreadRecursive = (subjectTweet, tweetsArr, threadTweetIdArr, mediaA
             // get quoted user data
             const quotedUserArr = getUser(tweetsArr[u].author_id, usersArr, userLen);
             const quoted_user_obj = quotedUserArr[0];
-            threadObj.quoted_tweet_data.quoted_tweet_user = quoted_user_obj;
+            threadObj.quoted_tweet_data.user = quoted_user_obj;
             threadObj.quoted_tweet_data.tweet_url = quotedUserArr[1] === "" ? "" : `https://twitter.com/${quotedUserArr[1]}/status/${referenced_tweet_id}`;
 
             // get quoted tweet media
