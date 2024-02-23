@@ -12,11 +12,11 @@ const fs = require("fs");
 
 const scrape_website = async () => {
 
-  let pageNum = 20;
+  let pageNum = 0;
 
-  while (pageNum < 47) {
+  while (pageNum < 11) {
 
-    const data = fs.readFileSync(`./3_z3_add_quoted_and_replied_tweet_urls/tweets_${pageNum}.json`);
+    const data = fs.readFileSync(`./second_round/3_z1_updated_tweets_with_reply_data/tweets_${pageNum}.json`);
     const json = JSON.parse(data);
     const len = json.length;
 
@@ -121,7 +121,7 @@ const scrape_website = async () => {
 
     const str = JSON.stringify(newArr, null, 2);
     
-    fs.writeFileSync(`./4_get_remaining_media_keys/tweets_${pageNum}.json`, str, (err) => {
+    fs.writeFileSync(`./second_round/4_get_remaining_media_keys/tweets_${pageNum}.json`, str, (err) => {
       if (err) {
         console.log("error : ", err);
       }

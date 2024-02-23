@@ -40,6 +40,10 @@ const createJson = (json, pageNum) => {
     newObj.user = {};
     newObj.image_urls = [];
     newObj.thread_arr = [];
+    newObj.retweet_count = dataArr[i].public_metrics.retweet_count;
+    newObj.likes_count = dataArr[i].public_metrics.like_count;
+    newObj.comments_count = dataArr[i].public_metrics.reply_count;
+    newObj.impressions_count = dataArr[i].public_metrics.impression_count;
 
     // To get the media data, get the media key array
     const media_keys = dataArr[i].attachments && dataArr[i].attachments.media_keys ? dataArr[i].attachments.media_keys : [];
@@ -68,6 +72,28 @@ const createJson = (json, pageNum) => {
       else {
         // return value should be object
         newObj.image_urls.push(returnVal);
+      }
+      
+    }
+
+
+    // Get media data (images) for links
+    const urls_arr = dataArr[i].entities && dataArr[i].entities.urls ? dataArr[i].entities.urls : [];
+
+    // Then loop through the entities array, checking first if it's a user_profile_image (reject) or not
+    for (let n = 0; n < urls_arr.length; n++) {
+
+      const url = urls_arr[n];
+
+      if (url.expanded_url && !url.expanded_url.includes("twitter") && url.images && url.images.length) {
+        for (let z = 0; z < url.images.length; z++) {
+          if (newObj.image_urls) {
+            newObj.image_urls.push(url.images[z]);
+          }
+          else {
+            newObj.image_urls = [url.images[z]];
+          }
+        }
       }
       
     }
@@ -154,7 +180,7 @@ const createJson = (json, pageNum) => {
       
       else if (dataArr[i].referenced_tweets[k].type === "replied_to") {
         // Figure out if it's a thread, or a reply to a different user
-        const thread = dataArr[i].user_id === dataArr[i].author_id ? true : false;
+        const thread = dataArr[i].in_reply_to_user_id === dataArr[i].author_id ? true : false;
 
         // This means it's a reply to a different user, so we need to get that user's info
         if (!thread) {
@@ -269,7 +295,7 @@ const createJson = (json, pageNum) => {
   }
   
   const updatedData = JSON.stringify(newArr, null, 2);
-  fs.writeFileSync(`./updated_tweets_with_reply_data_2/tweets_${pageNum}.json`, updatedData, { flag: "wx" }, (err) => {
+  fs.writeFileSync(`./second_round/2_updated_tweets_before_additional_data/tweets_${pageNum}.json`, updatedData, { flag: "wx" }, (err) => {
     if (err) {
       console.log("error : ", err);
     }
@@ -393,6 +419,27 @@ const handleThreadRecursive = (subjectTweet, tweetsArr, threadTweetIdArr, mediaA
                 
               }
     
+            }
+
+            // Get media data (images) for links
+            const urls_arr = subjectTweet.entities && subjectTweet.entities.urls ? subjectTweet.entities.urls : [];
+
+            // Then loop through the entities array, checking first if it's a user_profile_image (reject) or not
+            for (let n = 0; n < urls_arr.length; n++) {
+
+              const url = urls_arr[n];
+
+              if (url.expanded_url && !url.expanded_url.includes("twitter") && url.images && url.images.length) {
+                for (let z = 0; z < url.images.length; z++) {
+                  if (threadObj.image_urls) {
+                    threadObj.image_urls.push(url.images[z]);
+                  }
+                  else {
+                    threadObj.image_urls = [url.images[z]];
+                  }
+                }
+              }
+              
             }
 
 
@@ -551,10 +598,10 @@ const handleThreadRecursive = (subjectTweet, tweetsArr, threadTweetIdArr, mediaA
 }
 
 
-let pageNum = 5;
+let pageNum = 0;
 
-while (pageNum < 47) {
-  const data = fs.readFileSync(`./tweets/tweets${pageNum}.json`);
+while (pageNum < 11) {
+  const data = fs.readFileSync(`./second_round/1_tweets/tweets_${pageNum}.json`);
   const json = JSON.parse(data);
   createJson(json, pageNum);
   console.log(`${pageNum} done`);

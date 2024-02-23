@@ -1,11 +1,6 @@
 /*
-* Step 3_1: Scrape for videoHTML in replies 
+* Step 3_1: Scrape for videoHTML in quoted 
 *
-*
-* Bug from Step 3 has been fixed
-*
-* 
-* Running this script should not be necessary as of Feb. 1. 2024, as Step 3 should now get videoHTML in replies (it didn't previously)
 *
 *
 */
@@ -18,10 +13,10 @@ const scrape_website = async () => {
 
   let pageNum = 0;
 
-  while (pageNum < 47) {
+  while (pageNum < 11) {
 
 
-    let data = fs.readFileSync(`./updated_tweets_with_reply_data/tweets_${pageNum}.json`);
+    let data = fs.readFileSync(`./second_round/3_updated_tweets_with_video_HTML/tweets_${pageNum}.json`);
     const json = JSON.parse(data);
 
     const len = json.length;
@@ -36,22 +31,22 @@ const scrape_website = async () => {
       let htmlContent = "";
 
 
-      if (newJson.reply && newJson.in_reply_to_data && newJson.in_reply_to_data.video) {
-        let replyHTML = "";
+      if (newJson.quoted && newJson.quoted_tweet_data && newJson.quoted_tweet_data.video) {
+        let quotedTweetHtml = "";
 
-        const sn = newJson.in_reply_to_data.user.screen_name;
-        const tw_id = newJson.in_reply_to_data.id;
+        const sn = newJson.quoted_tweet_data.user.screen_name;
+        const tw_id = newJson.quoted_tweet_data.id;
         
         const url = getUrl(sn, tw_id);
         
-        replyHTML = await getVideo(url);
+        quotedTweetHtml = await getVideo(url);
         
-        if (replyHTML !== "") {
-          replyHTML = cleanUpHtml(replyHTML);
-          console.log(`Added replyHTML to pageNum ${pageNum} at Json item ${i}`);
+        if (quotedTweetHtml !== "") {
+          quotedTweetHtml = cleanUpHtml(quotedTweetHtml);
+          console.log(`Added quotedTweetHtml to pageNum ${pageNum} at Json item ${i}`);
         }
         
-        newJson.in_reply_to_data.video_html = replyHTML;
+        newJson.quoted_tweet_data.video_html = quotedTweetHtml;
 
       }
       
@@ -65,7 +60,7 @@ const scrape_website = async () => {
 
     // Write the Tweet to a file
     try {
-      fs.writeFileSync(`./updated_tweets_with_reply_data_2/tweets_${pageNum}.json`, str);
+      fs.writeFileSync(`./second_round/3_z1_updated_tweets_with_reply_data/tweets_${pageNum}.json`, str);
       console.log(`wrote pageNum ${pageNum}`)
     }
 

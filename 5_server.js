@@ -38,11 +38,12 @@ app.post("/categorize", (req, res) => {
   // console.log("req.body : ", req.body);
   
   tweetData.category = category;
+  tweetData.pageNum = pageNum;
   
   const str = "," + JSON.stringify(tweetData, null, 2);
   
   
-  fs.appendFile(`./5_categorized_tweets_by_page_num/tweets_${pageNum}.json`, str, (err) => {
+  fs.appendFile(`./second_round/5_categorized_tweets_by_page_num/tweets_${pageNum}.json`, str, (err) => {
     if (err) {
       console.log("by_page_num error : ", err);
       return res.json({ ok: false })
@@ -50,7 +51,7 @@ app.post("/categorize", (req, res) => {
   })
 
 
-  fs.appendFile(`./5_categorized_tweets_by_category/${category}.json`, str, (err) => {
+  fs.appendFile(`./second_round/5_categorized_tweets_by_category/${category}.json`, str, (err) => {
     if (err) {
       console.log("by_category error : ", err);
       return res.json({ ok: false })

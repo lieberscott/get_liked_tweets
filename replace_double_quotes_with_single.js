@@ -6,7 +6,9 @@
 */
 
 const str =
-'<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">The scene at Hillcrest High School in Queens as a Jewish teacher hid in her locked office for hours while students demanded she be fired for attending a pro-Israel rally. <a href="https://t.co/jzVCEofvJS">pic.twitter.com/jzVCEofvJS</a></p>&mdash; Steve McGuire (@sfmcguire79) <a href="https://twitter.com/sfmcguire79/status/1728470315850780964?ref_src=twsrc%5Etfw">November 25, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>'
+'<blockquote class="twitter-tweet" data-conversation="none" data-media-max-width="560"><p lang="en" dir="ltr">There are no words - please stay there.<br>Israel&#39;s presentation at the<a href="https://twitter.com/CIJ_ICJ?ref_src=twsrc%5Etfw">@CIJ_ICJ</a><a href="https://t.co/qjVHFNDmC5">https://t.co/qjVHFNDmC5</a>… <a href="https://t.co/qjVHFNDmC5">https://t.co/qjVHFNDmC5</a></p>&mdash; CañadaRecord 🌖 (@CanadaRecord) <a href="https://twitter.com/CanadaRecord/status/1760093558478917814?ref_src=twsrc%5Etfw">February 21, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>'
+
+
 
 
 

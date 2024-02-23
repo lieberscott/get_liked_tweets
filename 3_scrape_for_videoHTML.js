@@ -12,12 +12,12 @@ const fs = require("fs");
 
 const scrape_website = async () => {
 
-  let pageNum = 16;
+  let pageNum = 10;
 
   while (pageNum >= 0) {
 
 
-    let data = fs.readFileSync(`./updated_tweets/tweets_${pageNum}.json`);
+    let data = fs.readFileSync(`./second_round/2_updated_tweets_before_additional_data/tweets_${pageNum}.json`);
     const json = JSON.parse(data);
 
     const len = json.length;
@@ -27,16 +27,12 @@ const scrape_website = async () => {
     
     while (i < len) {
 
-      console.log("i  : ", i);
-
       const newJson = {...json[i]};
       let htmlContent = "";
 
       if (newJson.video) {
 
         const url = getUrl(newJson.user.screen_name, newJson.tweet_id);
-
-        console.log(url);
 
         htmlContent = await getVideo(url);
 
@@ -115,7 +111,7 @@ const scrape_website = async () => {
 
     // Write the Tweet to a file
     try {
-      fs.writeFileSync(`./updated_tweets2/tweets_${pageNum}.json`, str);
+      fs.writeFileSync(`./second_round/3_updated_tweets_with_video_HTML/tweets_${pageNum}.json`, str);
       console.log(`appended ${pageNum}`);
     }
 
