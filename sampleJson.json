@@ -30,7 +30,7 @@
 ✅        "quoted_tweet_tweet_url": "https://t.co/9i4c5bUUCu",
 ✅        "image_urls": [],
 ✅        "quoted_tweet_video_html": "",
-✅        "quoted_tweet_user": {
+✅        "user": {
 ✅          "id": 63830204,
 ✅          "name": "Twitter API",
 ✅          "screen_name": "TwitterAPI",

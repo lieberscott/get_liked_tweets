@@ -1,76 +1,53 @@
 const fs = require('fs');
 
 
-// const categories = [
-//   {
-//     defendingIsrael: [],
-//     theWorstEvil: [],
-//     survivorsVictimsHostagesFallen: [],
-//     proPalestineLiesAndFalsehoods: [],
-//     proPalestineRhetoricalGames: [],
-//     proPalestineViolenceAndAnger: [],
-//     history: [],
-//     israelsImpossibleSituation: [],
-//     antiIsraelJews: []
-//   }
-// ]
-
 const categories = [
   { category: "hostages", subcategories: ["hostageStories"] },
-  { category: "oct7", subcategories: ["oct7fallen", "oct7testimonies", "heroicStories"]},
+  { category: "oct7", subcategories: ["oct7fallen", "oct7testimonies" /*, "survivorsStories" */]},
   { category: "fallen_soldiers", subcategories: ["israeliFallenSoldiersStories"]},
-  { category: "hamas_evil", subcategories: ["gazaSickCultureOfHate", "gazaTeachesKidsHateAndViolence", "hamasInTheirOwnWordsAndHamasEvil", "hamasWarCrimes", "houthis", "noGazanIsInnocent", "noPalestinianState", "palestiniansOnlyHaveThemselvesToBlame", "hamasLies", "hideFacesLikeKlan", "proPalestineSupportsViolenceAndHamas", "proPalestineViolenceIntimidation", "stupidProtestors", "tearingDownPosters", "antiSemitism", "dayAfterProtests", "theNewNazis", "theyreFullOfHate", "harvestingOrgansLibel", "oneStateSolutionGame"] },
-  { category: "pro_palestine_lies", subcategories: ["antiIsraelTwitterLies", "itsNotAboutIsraeliMistreatment", "palestineWasARealPlaceLie", "palestiniansWelcomedJewsLie", "proPalestineLies", "apartheid", "colonizersLie", "counteringAntiIsraelCliches", "ethnicCleansingInversion", "genocideCliche", "israelInversionStrategy", "antiIsraelJewsCounterarguments", "alAlhiHospitalBombing", "alShifaHospital", "blamingIsraelLies", "deathTollLie", "gazanDoctorsAndJournalists", "internationalLaw"]},
-  { category: "moving_pro_israel_speeches", subcategories: ["movingProIsraelSpeeches"]}
+  { category: "hamas_evil", subcategories: ["gazaSickCultureOfHate", "gazaTeachesKidsHateAndViolence", "hamasInTheirOwnWordsAndHamasEvil", "hamasWarCrimes", "noGazanIsInnocent"] },
+  { category: "muslimsTaughtToHateJews", subcategories: ["muslimsTaughtToHateJews", "muslimViolence"]},
+  { category: "solutions", subcategories: ["solutions", "unrwa"]},
+  { category: "unapologeticallyProIsrael", subcategories: ["unapologeticallyProIsrael", "proIsraelProZionism", "movingProIsraelSpeeches", "defendingIsrael", "heroicStories", "israeliMilitaryVictories", "israeliSpirit", "israelSupporters"]},
+  { category: "endless_hypocrisy", subcategories: ["israelsImpossibleSituationAndDoubleStandards", "proPalestineHypocrisy"]},
+  { category: "endless_lies", subcategories: ["alAlhiHospitalBombing", "alShifaHospital", "hamasLies", "antiIsraelTwitterLies", "openAirPrison", "proPalestineLies", "blamingIsraelLies", "deathTollLie", "gazanDoctorsAndJournalists", "deadBabiesHypocrisy", "palestineWasARealPlaceLie", "palestiniansWelcomedJewsLie"]},
+  { category: "they_inverse_reality", subcategories: ["counteringAntiIsraelCliches", "ethnicCleansingInversion", "genocideCliche", "israelInversionStrategy", "apartheid", "colonizersLie", "settlerViolenceLie"]},
+  { category: "theyre_full_of_hate", subcategories: ["proPalestineSupportsViolenceAndHamas", "proPalestineViolenceIntimidation", "antiIsraelProtestorTruthBombs", "theyreFullOfHate", "tearingDownPosters", "antiSemitism", "theNewNazis", "qHamas", "harvestingOrgansLibel", "realTimeHolocaustDenial"]},
+  { category: "no_palestinian_state", subcategories: ["noPalestinianState", "palestiniansOnlyHaveThemselvesToBlame", "oneStateSolutionGame"]},
+  { category: "gallows_humor", subcategories: ["stupidProtestors", "gallowsHumor"]},
+  { category: "day_after_protests", subcategories: ["dayAfterProtests"]},
+  { category: "israelAndJewsAreAlone", subcategories: ["unitedNationsJournalistsNGOs", "israelAndJewsAreAlone", "newJewishLeaders"]},
+  { category: "itsNotAboutIsraeliMistreatment", subcategories: ["itsNotAboutIsraeliMistreatment"]},
+  { category: "antiIsraelJewsCounterarguments", subcategories: ["antiIsraelJewsCounterarguments"]},
+  { category: "internationalLaw", subcategories: ["internationalLaw"]},
+  { category: "rhetoricalGames", subcategories: ["rhetoricalGames", "ceasefireGame"]},
+  { category: "mediaBias", subcategories: ["mediaBias"]},
+  { category: "historyOfConflict", subcategories: ["historyOfConflict", "israelTriedforPeace"]}
 ]
 
+const mediaFilesArr = ["./first_round/5_categorized_tweets_by_category", "./second_round/5_categorized_tweets_by_category"]
 
-
-// const categories = [
-//   { currentWarLies: ["alAlhiHospitalBombing", "alShifaHospital", "blamingIsraelLies", "deathTollLie", "gazanDoctorsAndJournalists", "novaInversion", "openAirPrison", "realTimeHolocaustDenial"] },
-//   { israeliSpirit: ["defendingIsrael", "gallowsHumor", "israeliMilitaryMorality", "israeliMilitaryVictories", "israeliSpirit", "muslimsAgainstHamas", "noMoralEquivalence", "proIsraelProZionism"] },
-//   { hamasPureEvil: ["gazaSickCultureOfHate", "gazaTeachesKidsHateAndViolence", "hamasInTheirOwnWordsAndHamasEvil", "hamasWarCrimes", "houthis", "noGazanIsInnocent", "noPalestinianState", "palestiniansOnlyHaveThemselvesToBlame"] },
-//   { hamasLies: ["hamasLies"] },
-//   { history: ["historyOfConflict", "internationalLaw", "iransRole"] },
-//   { soldiersHostagesAndHeros: ["hostageStories", "heroicStories", "israeliFallenSoldiersStories", "oct7fallen", "oct7testimonies"] },
-//   { israelInversionStrategy: ["apartheid", "colonizersLie", "counteringAntiIsraelCliches", "ethnicCleansingInversion", "genocideCliche", "israelInversionStrategy", "antiIsraelJewsCounterarguments"] },
-//   { israelsImpossibleSituation: ["israelAndJewsAreAlone", "israelsImpossibleSituationAndDoubleStandards", "israelVsDEI", "mediaBias", "theWestOnlyPerpetuatingTheViolence", "unitedNationsJournalistsNGOs", "unrwa"] },
-//   { movingProIsraelSpeeches: ["movingProIsraelSpeeches"] },
-//   { muslimAntiSemitism: ["muslimsTaughtToHateJews", "muslimViolence"] },
-//   { proPalestineLiesAndFalsehoods: ["antiIsraelTwitterLies", "itsNotAboutIsraeliMistreatment", "palestineWasARealPlaceLie", "palestiniansWelcomedJewsLie", "proPalestineLies"] },
-//   { proPalestineHypocrisy: ["deadBabiesHypocrisy", "proPalestineHypocrisy"] },
-//   { proPalestineRhetoricalGames: ['americanFundedViolence', "antiSemitismInversion", "ceasefireGame", "cryBullies", "everythingIsAnIsraeliLie", "harvestingOrgansLibel", "oneStateSolutionGame", "outrageousAccusations", "qHamas", "rhetoricalGames"] },
-//   { theNewNazis: ["antiIsraelProtestorTruthBombs", "antiSemitism", "dayAfterProtests", "hideFacesLikeKlan", "proPalestineSupportsViolenceAndHamas", "proPalestineViolenceIntimidation", "stupidProtestors", "tearingDownPosters", "theNewNazis", "theyreFullOfHate", "whyTheLeftHatesIsrael"] }
-// ]
 
 const categoriesLen = categories.length;
 
 const createHomepageImages = () => {
-for (let i = 0; i < categoriesLen; i++) {
+for (let i = 0; i < 7; i++) { // 7 because only the first 7 categories get images for the homepage
   const category = categories[i].category;
   const subCategoriesArr = categories[i].subcategories;
   const subCategoriesArrLen = subCategoriesArr.length;
 
   let newStr = "";
-  const newArr = [];
+  let newArr = [];
 
   // console.log(`subCategoriesArrLen :`, subCategoriesArrLen);
 
   for (let j = 0; j < subCategoriesArrLen; j++) {
 
-    const data = fs.readFileSync(`./5_categorized_tweets_by_category/${subCategoriesArr[j]}.json`);
+    const data = fs.readFileSync(`${mediaFilesArr[0]}/${subCategoriesArr[j]}.json`);
 
     let str = data.toString();
 
-    if (str[0] === ",") {
-      newStr = str.substring(1); 
-      newStr = "[" + newStr + "]";
-    }
-    else {
-      newStr = "[" + str + "]";
-    }
-
-    const json = JSON.parse(newStr);
+    const json = JSON.parse(str);
     const len = json.length;
 
     let count = 0;
@@ -84,14 +61,23 @@ for (let i = 0; i < categoriesLen; i++) {
         newArr.push({ img_url, index, text });
       }
     }
-    // console.log(`${subCategoriesArr[j]} : ${count} images counted`)
   }
+
+  // const existingData = fs.readFileSync(`home_images/${category}.json`);
+
+  // let existingStr = existingData.toString();
+
+  // const existingJson = JSON.parse(existingStr);
+
+  // if (existingJson.length) {
+  //   newArr = existingJson.concat(newArr);
+  // }
 
   console.log(`FINISHED ${category}: ${newArr.length} total images`);
 
 
   const newStr2 = JSON.stringify(newArr, null, 2);
-    fs.writeFileSync(`./6_images_for_homepage/${category}.json`, newStr2, (err) => {
+    fs.writeFileSync(`./home_images/${category}.json`, newStr2, (err) => {
       if (err) {
         console.log("error : ", err);
       }
@@ -119,5 +105,3 @@ console.log("newArr : ", newArr);
 
 
 createHomepageImages();
-
-// makeNewCategories

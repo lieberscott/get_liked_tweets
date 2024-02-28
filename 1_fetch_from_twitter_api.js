@@ -10,10 +10,9 @@ const fs = require("fs");
 const needle = require("needle");
 const axios = require("axios");
 
-// const token = "SEE_DOT_ENV_FILE";
-const token = "AAAAAAAAAAAAAAAAAAAAABQWrgEAAAAAN1%2FJFEg8Hm%2BGK4kpMesg8G0KlvY%3D8avF1B8HGUplSt0tjLgy9XDldDhhrGXgomeuwuY6kn3GqAGbdw";
+const token = "SEE_DOT_ENV_FILE";
 
-let fileNum = 0;
+let fileNum = 15;
 let intervalId = "";
 
 const twitterId = "81957315"; // Id for smlieber84
@@ -26,7 +25,7 @@ let params = {
   "max_results": maxResults,
   "media.fields": "duration_ms,height,media_key,type,url,width,public_metrics",
   "user.fields": "id,name,profile_image_url,username,verified,verified_type",
-  // "pagination_token": ""
+  "pagination_token": "7140dibdnow9c7btw483h1hvuqvnl55psmtq8va6m5t0w"
 };
 
 const getdata = async () => {
@@ -45,7 +44,8 @@ const getdata = async () => {
   if (response.body) {
 
     params.pagination_token = response.body.meta ? response.body.meta.next_token : "";
-    if (fileNum >= 10) {
+    // if (fileNum >= 10) {
+    if (!params.pagination_token || (response.body.data && response.body.data.length < 10)) {
       console.log("finished");
       clearInterval(intervalId);
     }
@@ -54,7 +54,7 @@ const getdata = async () => {
     // Write the json
     
     const str = JSON.stringify(response.body, null, 2);
-    fs.appendFile(`./second_round/tweets_${fileNum}.json`, str, (error) => {
+    fs.appendFile(`./second_round_2/tweets_${fileNum}.json`, str, (error) => {
       if (error) {
         console.error(error);
         return;
